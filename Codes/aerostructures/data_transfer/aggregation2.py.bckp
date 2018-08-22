@@ -1,0 +1,47 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Apr 24 17:20:42 2016 
+
+@author: © a.iacono
+"""
+
+from __future__ import print_function
+
+import numpy as np
+
+from openmdao.api import Component
+
+
+        
+class Aggregation(Component):
+    
+    def __init__(self,n_stress,p,stress_allow):
+        super(Aggregation,self).__init__()
+        self.n_stress=n_stress
+        self.p=p
+        self.stress_allow=stress_allow
+        self.add_param('VMStress',np.zeros(self.n_stress))
+        self.add_param('gi',np.zeros(self.n_stress))
+        self.add_param('gmax',val=0.0)
+        self.add_param('summ',val=0.0)
+        self.add_output('Gksl',val=0.0)
+        
+    def solve_nonlinear(self,params,unknowns,resids):
+        
+        n_stress=self.n_stress
+        p=self.p
+        gi=params['gi']
+        VMStress=params['VMStress']
+        gmax=params['gmax']
+        gi=((VMStress/self.stress_allow) - 1)
+        gmax=max(gi)
+        #print('gmax = '+str(gmax))
+        summ=params['summ']
+        for k in range (n_stress):
+            
+            summ=summ+np.exp(p*(gi[k]-gmax))
+            
+                
+        unknowns['Gksl']=gmax+(np.log(summ)/p)-(np.log(n_stress)/p)
+        #print ('Gksl =  '+str(unknowns['Gksl']))
+        
