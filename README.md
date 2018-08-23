@@ -1,4 +1,4 @@
 # Aeroelastic-Optimization
 
 
-* Main Tutorial https://github.com/NitroCortex/Aeroelastic-Optimization/blob/master/Main%20Code.ipynb
+* Main Tutorial http://nbviewer.jupyter.org/github/NitroCortex/Aeroelastic-Optimization/blob/master/Tutorial/Main_Code_Tutorial.ipynb
