@@ -1,0 +1,1043 @@
+
+
+
+
+
+
+                                  ****
+                                *      *
+                               *        *
+                               *  N A S T R A N
+                               *        *
+                                *      *
+                                  ****
+
+
+                            INTEL COMPUTER SYSTEMS   
+                                 LINUX VERSION 
+
+                          SYSTEM RELEASE -  1995 ED.
+
+                                DISTRIBUTED BY
+
+         COMPUTER SOFTWARE MANAGEMENT AND INFORMATION CENTER (COSMIC)
+                 UNIVERSITY OF GEORGIA, ATHENS, GEORGIA 30602
+                 PHONE: (706)542-3265      FAX: (706)542-4807
+1                                                                           /    95 INTEL LINUX NASTRAN    / AUG 28, 18 / PAGE     2
+                                                                                                                                    
+0                                                                                                                                   
+                                                                                                         
+                                                                                                         
+                         INSTALLATION CENTER USER INFORMATION GIVEN IN THIS SECTION                      
+                                                                                                         
+                                     *********************************************                       
+                                     *                                           *                       
+                                     *  PLEASE READ THE COMMENT IN DEMO PROBLEM  *                       
+                                     *  D01002A ABOUT SYSTEM TIMING CONSTANTS    *                       
+                                     *                                           *                       
+                                     *********************************************                       
+                                                                                                         
+                         ===X=    TOP OF PAGE REQUEST IF 'X' IS REPLACED BY '='                          
+                                                                                                         
+1                                                                           /    95 INTEL LINUX NASTRAN    / AUG 28, 18 / PAGE     3
+                                                                                                                                    
+0                                                                                                                                   
+0*** USER INFORMATION MESSAGE 225, GINO TIME CONSTANTS ARE BEING COMPUTED
+     (SEE NASINFO FILE FOR ELIMINATION OF THESE COMPUTATIONS)
+1                                                                           /    95 INTEL LINUX NASTRAN    / AUG 28, 18 / PAGE     4
+                                                                                                                                    
+0        N A S T R A N    E X E C U T I V E    C O N T R O L    D E C K    E C H O                                                  
+0                                                                                                                                   
+                                                                                                                                    
+                                                                                                                                    
+     $ADD_PRE_BULK_CARDS                                                             
+     ID,Stick Statics                                                                
+     SOL,1                                                                           
+     CEND                                                                            
+0*** APP  DECLARATION CARD MISSING.  DISPLACEMENT IS SELECTED BY DEFAULT
+0*** TIME  CARD MISSING. MAXIMUM EXECUTION TIME IS SET TO 5 MINUTES BY DEFAULT
+1     Stick Model Static Analyses for Comparison                            /    95 INTEL LINUX NASTRAN    / AUG 28, 18 / PAGE     5
+                                                                                                                                    
+0                                                                                                                                   
+0                                        C A S E    C O N T R O L   D E C K   E C H O                                               
+                 CARD                                                                                                               
+                 COUNT                                                                                                              
+                  1      TITLE = Stick Model Static Analyses for Comparison                              
+                  2      SPC = 1                                                                         
+                  3                                                                                      
+                  4      $Marker to place python generated subcases                                      
+                  5      $${                                                                             
+                  6      SET 1=7000,7001,7002,7003,7004,7005,7006,7007,7008,7009,                        
+                  7      7010,7011,7012,7013,7014,7015,7016,7017,7018,7019,                              
+                  8      7020                                                                            
+                  9                                                                                      
+                 10                                                                                      
+                 11      DISP(PUNCH)=1                                                                   
+                 12      SUBCASE 1                                                                       
+                 13          LOAD=122                                                                    
+                 14      SUBCASE 2                                                                       
+                 15          LOAD=123                                                                    
+                 16      SUBCASE 3                                                                       
+                 17          LOAD=124                                                                    
+                 18      SUBCASE 4                                                                       
+                 19          LOAD=125                                                                    
+                 20      SUBCASE 5                                                                       
+                 21          LOAD=126                                                                    
+                 22      SUBCASE 6                                                                       
+                 23          LOAD=127                                                                    
+                 24      SUBCASE 7                                                                       
+                 25          LOAD=128                                                                    
+                 26      SUBCASE 8                                                                       
+                 27          LOAD=129                                                                    
+                 28      SUBCASE 9                                                                       
+                 29          LOAD=130                                                                    
+                 30      SUBCASE 10                                                                      
+                 31          LOAD=131                                                                    
+                 32      SUBCASE 11                                                                      
+                 33          LOAD=132                                                                    
+                 34      SUBCASE 12                                                                      
+                 35          LOAD=133                                                                    
+                 36      SUBCASE 13                                                                      
+                 37          LOAD=134                                                                    
+                 38      SUBCASE 14                                                                      
+                 39          LOAD=135                                                                    
+                 40      SUBCASE 15                                                                      
+                 41          LOAD=136                                                                    
+                 42      SUBCASE 16                                                                      
+                 43          LOAD=137                                                                    
+                 44      SUBCASE 17                                                                      
+                 45          LOAD=138                                                                    
+                 46      SUBCASE 18                                                                      
+                 47          LOAD=139                                                                    
+1     Stick Model Static Analyses for Comparison                            /    95 INTEL LINUX NASTRAN    / AUG 28, 18 / PAGE     6
+                                                                                                                                    
+0                                                                                                                                   
+0                                        C A S E    C O N T R O L   D E C K   E C H O                                               
+                 CARD                                                                                                               
+                 COUNT                                                                                                              
+                 48      SUBCASE 19                                                                      
+                 49          LOAD=140                                                                    
+                 50      SUBCASE 20                                                                      
+                 51          LOAD=141                                                                    
+                 52      SUBCASE 21                                                                      
+                 53          LOAD=142                                                                    
+                 54      SUBCASE 22                                                                      
+                 55          LOAD=143                                                                    
+                 56      SUBCASE 23                                                                      
+                 57          LOAD=144                                                                    
+                 58      SUBCASE 24                                                                      
+                 59          LOAD=145                                                                    
+                 60      SUBCASE 25                                                                      
+                 61          LOAD=146                                                                    
+                 62      SUBCASE 26                                                                      
+                 63          LOAD=147                                                                    
+                 64      SUBCASE 27                                                                      
+                 65          LOAD=148                                                                    
+                 66      SUBCASE 28                                                                      
+                 67          LOAD=149                                                                    
+                 68      SUBCASE 29                                                                      
+                 69          LOAD=150                                                                    
+                 70      SUBCASE 30                                                                      
+                 71          LOAD=151                                                                    
+                 72      SUBCASE 31                                                                      
+                 73          LOAD=152                                                                    
+                 74      SUBCASE 32                                                                      
+                 75          LOAD=153                                                                    
+                 76      SUBCASE 33                                                                      
+                 77          LOAD=154                                                                    
+                 78      SUBCASE 34                                                                      
+                 79          LOAD=155                                                                    
+                 80      SUBCASE 35                                                                      
+                 81          LOAD=156                                                                    
+                 82      SUBCASE 36                                                                      
+                 83          LOAD=157                                                                    
+                 84      SUBCASE 37                                                                      
+                 85          LOAD=158                                                                    
+                 86      SUBCASE 38                                                                      
+                 87          LOAD=159                                                                    
+                 88      SUBCASE 39                                                                      
+                 89          LOAD=160                                                                    
+                 90      SUBCASE 40                                                                      
+                 91          LOAD=161                                                                    
+                 92      SUBCASE 41                                                                      
+                 93          LOAD=162                                                                    
+                 94      SUBCASE 42                                                                      
+1     Stick Model Static Analyses for Comparison                            /    95 INTEL LINUX NASTRAN    / AUG 28, 18 / PAGE     7
+                                                                                                                                    
+0                                                                                                                                   
+0                                        C A S E    C O N T R O L   D E C K   E C H O                                               
+                 CARD                                                                                                               
+                 COUNT                                                                                                              
+                 95          LOAD=163                                                                    
+                 96      SUBCASE 43                                                                      
+                 97          LOAD=164                                                                    
+                 98      SUBCASE 44                                                                      
+                 99          LOAD=165                                                                    
+                100      SUBCASE 45                                                                      
+                101          LOAD=166                                                                    
+                102      SUBCASE 46                                                                      
+                103          LOAD=167                                                                    
+                104      SUBCASE 47                                                                      
+                105          LOAD=168                                                                    
+                106      SUBCASE 48                                                                      
+                107          LOAD=169                                                                    
+                108      SUBCASE 49                                                                      
+                109          LOAD=170                                                                    
+                110      SUBCASE 50                                                                      
+                111          LOAD=171                                                                    
+                112      SUBCASE 51                                                                      
+                113          LOAD=172                                                                    
+                114      SUBCASE 52                                                                      
+                115          LOAD=173                                                                    
+                116      SUBCASE 53                                                                      
+                117          LOAD=174                                                                    
+                118      SUBCASE 54                                                                      
+                119          LOAD=175                                                                    
+                120      SUBCASE 55                                                                      
+                121          LOAD=176                                                                    
+                122      SUBCASE 56                                                                      
+                123          LOAD=177                                                                    
+                124      SUBCASE 57                                                                      
+                125          LOAD=178                                                                    
+                126      SUBCASE 58                                                                      
+                127          LOAD=179                                                                    
+                128      SUBCASE 59                                                                      
+                129          LOAD=180                                                                    
+                130      SUBCASE 60                                                                      
+                131          LOAD=181                                                                    
+                132      SUBCASE 61                                                                      
+                133          LOAD=182                                                                    
+                134      SUBCASE 62                                                                      
+                135          LOAD=183                                                                    
+                136      SUBCASE 63                                                                      
+                137          LOAD=184                                                                    
+                138      SUBCASE 64                                                                      
+                139          LOAD=185                                                                    
+                140      SUBCASE 65                                                                      
+                141          LOAD=186                                                                    
+1     Stick Model Static Analyses for Comparison                            /    95 INTEL LINUX NASTRAN    / AUG 28, 18 / PAGE     8
+                                                                                                                                    
+0                                                                                                                                   
+0                                        C A S E    C O N T R O L   D E C K   E C H O                                               
+                 CARD                                                                                                               
+                 COUNT                                                                                                              
+                142      SUBCASE 66                                                                      
+                143          LOAD=187                                                                    
+                144      SUBCASE 67                                                                      
+                145          LOAD=188                                                                    
+                146      SUBCASE 68                                                                      
+                147          LOAD=189                                                                    
+                148      SUBCASE 69                                                                      
+                149          LOAD=190                                                                    
+                150      SUBCASE 70                                                                      
+                151          LOAD=191                                                                    
+                152      SUBCASE 71                                                                      
+                153          LOAD=192                                                                    
+                154      SUBCASE 72                                                                      
+                155          LOAD=193                                                                    
+                156      SUBCASE 73                                                                      
+                157          LOAD=194                                                                    
+                158      SUBCASE 74                                                                      
+                159          LOAD=195                                                                    
+                160      SUBCASE 75                                                                      
+                161          LOAD=196                                                                    
+                162      SUBCASE 76                                                                      
+                163          LOAD=197                                                                    
+                164      SUBCASE 77                                                                      
+                165          LOAD=198                                                                    
+                166      SUBCASE 78                                                                      
+                167          LOAD=199                                                                    
+                168      SUBCASE 79                                                                      
+                169          LOAD=200                                                                    
+                170      SUBCASE 80                                                                      
+                171          LOAD=201                                                                    
+                172      SUBCASE 81                                                                      
+                173          LOAD=202                                                                    
+                174      SUBCASE 82                                                                      
+                175          LOAD=203                                                                    
+                176      SUBCASE 83                                                                      
+                177          LOAD=204                                                                    
+                178      SUBCASE 84                                                                      
+                179          LOAD=205                                                                    
+                180      SUBCASE 85                                                                      
+                181          LOAD=206                                                                    
+                182      SUBCASE 86                                                                      
+                183          LOAD=207                                                                    
+                184      SUBCASE 87                                                                      
+                185          LOAD=208                                                                    
+                186      SUBCASE 88                                                                      
+                187          LOAD=209                                                                    
+                188      SUBCASE 89                                                                      
+1     Stick Model Static Analyses for Comparison                            /    95 INTEL LINUX NASTRAN    / AUG 28, 18 / PAGE     9
+                                                                                                                                    
+0                                                                                                                                   
+0                                        C A S E    C O N T R O L   D E C K   E C H O                                               
+                 CARD                                                                                                               
+                 COUNT                                                                                                              
+                189          LOAD=210                                                                    
+                190      SUBCASE 90                                                                      
+                191          LOAD=211                                                                    
+                192      SUBCASE 91                                                                      
+                193          LOAD=212                                                                    
+                194      SUBCASE 92                                                                      
+                195          LOAD=213                                                                    
+                196      SUBCASE 93                                                                      
+                197          LOAD=214                                                                    
+                198      SUBCASE 94                                                                      
+                199          LOAD=215                                                                    
+                200      SUBCASE 95                                                                      
+                201          LOAD=216                                                                    
+                202      SUBCASE 96                                                                      
+                203          LOAD=217                                                                    
+                204      SUBCASE 97                                                                      
+                205          LOAD=218                                                                    
+                206      SUBCASE 98                                                                      
+                207          LOAD=219                                                                    
+                208      SUBCASE 99                                                                      
+                209          LOAD=220                                                                    
+                210      SUBCASE 100                                                                     
+                211          LOAD=221                                                                    
+                212      SUBCASE 101                                                                     
+                213          LOAD=222                                                                    
+                214      SUBCASE 102                                                                     
+                215          LOAD=223                                                                    
+                216      SUBCASE 103                                                                     
+                217          LOAD=224                                                                    
+                218      SUBCASE 104                                                                     
+                219          LOAD=225                                                                    
+                220      SUBCASE 105                                                                     
+                221          LOAD=226                                                                    
+                222      SUBCASE 106                                                                     
+                223          LOAD=227                                                                    
+                224      SUBCASE 107                                                                     
+                225          LOAD=228                                                                    
+                226      SUBCASE 108                                                                     
+                227          LOAD=229                                                                    
+                228      SUBCASE 109                                                                     
+                229          LOAD=230                                                                    
+                230      SUBCASE 110                                                                     
+                231          LOAD=231                                                                    
+                232      SUBCASE 111                                                                     
+                233          LOAD=232                                                                    
+                234      SUBCASE 112                                                                     
+                235          LOAD=233                                                                    
+1     Stick Model Static Analyses for Comparison                            /    95 INTEL LINUX NASTRAN    / AUG 28, 18 / PAGE    10
+                                                                                                                                    
+0                                                                                                                                   
+0                                        C A S E    C O N T R O L   D E C K   E C H O                                               
+                 CARD                                                                                                               
+                 COUNT                                                                                                              
+                236      SUBCASE 113                                                                     
+                237          LOAD=234                                                                    
+                238      SUBCASE 114                                                                     
+                239          LOAD=235                                                                    
+                240      SUBCASE 115                                                                     
+                241          LOAD=236                                                                    
+                242      SUBCASE 116                                                                     
+                243          LOAD=237                                                                    
+                244      SUBCASE 117                                                                     
+                245          LOAD=238                                                                    
+                246      SUBCASE 118                                                                     
+                247          LOAD=239                                                                    
+                248      SUBCASE 119                                                                     
+                249          LOAD=240                                                                    
+                250      SUBCASE 120                                                                     
+                251          LOAD=241                                                                    
+                252      $$}                                                                             
+                253      BEGIN BULK                                                                      
+
+
+                        (NO. OF UNSORTED BULK DATA CARDS READ =   499, INCLUDING  29 COMMENT CARDS)
+0*** USER INFORMATION MESSAGE 207, BULK DATA DECK IS NOT SORTED. NASTRAN WILL RE-ORDER THE INPUT DECK.
+1     Stick Model Static Analyses for Comparison                            /    95 INTEL LINUX NASTRAN    / AUG 28, 18 / PAGE    11
+                                                                                                                                    
+0                                                                                                                                   
+0                                                 S O R T E D   B U L K    D A T A    E C H O                                       
+                     CARD                                                                                                           
+                     COUNT        ---1--- +++2+++ ---3--- +++4+++ ---5--- +++6+++ ---7--- +++8+++ ---9--- +++10+++                  
+                    1-        CBAR    1       1       7000    7001    0.0     1.0     -0.0    1       +C0N0001
+                    2-        +C0N0001                0.0     -2.667+05.3678-60.0     -2.667+05.3678-6        
+                    3-        CBAR    2       2       7001    7002    0.0     1.0     -0.0    1       +C0N0002
+                    4-        +C0N0002                0.0     -2.665+01.9170-60.0     -2.665+01.9170-6        
+                    5-        CBAR    3       3       7002    7003    0.0     1.0     -0.0    1       +C0N0003
+                    6-        +C0N0003                0.0     -2.388+04.2027-60.0     -2.388+04.2027-6        
+                    7-        CBAR    4       4       7003    7004    0.0     1.0     -0.0    1       +C0N0004
+                    8-        +C0N0004                0.0     -2.127+03.1393-60.0     -2.127+03.1393-6        
+                    9-        CBAR    5       5       7004    7005    0.0     1.0     -0.0    1       +C0N0005
+                   10-        +C0N0005                0.0     -1.876+01.2085-60.0     -1.876+01.2085-6        
+                   11-        CBAR    6       6       7005    7006    0.0     1.0     -0.0    1       +C0N0006
+                   12-        +C0N0006                0.0     -1.628+03.8515-60.0     -1.628+03.8515-6        
+                   13-        CBAR    7       7       7006    7007    0.0     1.0     -0.0    1       +C0N0007
+                   14-        +C0N0007                0.0     -1.554+06.0589-60.0     -1.554+06.0589-6        
+                   15-        CBAR    8       8       7007    7008    0.0     1.0     -0.0    1       +C0N0008
+                   16-        +C0N0008                0.0     -1.476+05.2492-60.0     -1.476+05.2492-6        
+                   17-        CBAR    9       9       7008    7009    0.0     1.0     -0.0    1       +C0N0009
+                   18-        +C0N0009                0.0     -1.367+01.4737-60.0     -1.367+01.4737-6        
+                   19-        CBAR    10      10      7009    7010    0.0     1.0     -0.0    1       +C0N0010
+                   20-        +C0N0010                0.0     -1.257+01.0478-60.0     -1.257+01.0478-6        
+                   21-        CBAR    11      11      7010    7011    0.0     1.0     -0.0    1       +C0N0011
+                   22-        +C0N0011                0.0     -1.146+05.7112-70.0     -1.146+05.7112-7        
+                   23-        CBAR    12      12      7011    7012    0.0     1.0     -0.0    1       +C0N0012
+                   24-        +C0N0012                0.0     -1.036+03.0415-60.0     -1.036+03.0415-6        
+                   25-        CBAR    13      13      7012    7013    0.0     1.0     -0.0    1       +C0N0013
+                   26-        +C0N0013                0.0     -9.260-14.4782-60.0     -9.260-14.4782-6        
+                   27-        CBAR    14      14      7013    7014    0.0     1.0     -0.0    1       +C0N0014
+                   28-        +C0N0014                0.0     -8.154-14.5074-60.0     -8.154-14.5074-6        
+                   29-        CBAR    15      15      7014    7015    0.0     1.0     -0.0    1       +C0N0015
+                   30-        +C0N0015                0.0     -7.042-11.2207-60.0     -7.042-11.2207-6        
+                   31-        CBAR    16      16      7015    7016    0.0     1.0     -0.0    1       +C0N0016
+                   32-        +C0N0016                0.0     -5.922-11.8888-60.0     -5.922-11.8888-6        
+                   33-        CBAR    17      17      7016    7017    0.0     1.0     -0.0    1       +C0N0017
+                   34-        +C0N0017                0.0     -4.791-1-6.857-70.0     -4.791-1-6.857-7        
+                   35-        CBAR    18      18      7017    7018    0.0     1.0     -0.0    1       +C0N0018
+                   36-        +C0N0018                0.0     -3.650-11.9952-60.0     -3.650-11.9952-6        
+                   37-        CBAR    19      19      7018    7019    0.0     1.0     -0.0    1       +C0N0019
+                   38-        +C0N0019                0.0     -2.496-11.6363-60.0     -2.496-11.6363-6        
+                   39-        CBAR    20      20      7019    7020    0.0     1.0     -0.0    1       +C0N0020
+                   40-        +C0N0020                0.0     -1.313-1-5.996-70.0     -1.313-1-5.996-7        
+                   41-        FORCE   1       7001    0       1.0     1.0     0.0     0.0                     
+                   42-        FORCE   2       7001    0       1.0     0.0     1.0     0.0                     
+                   43-        FORCE   3       7001    0       1.0     0.0     0.0     1.0                     
+                   44-        FORCE   4       7001    0       0.0     1.0     1.0     1.0                     
+                   45-        FORCE   5       7001    0       0.0     1.0     1.0     1.0                     
+                   46-        FORCE   6       7001    0       0.0     1.0     1.0     1.0                     
+                   47-        FORCE   7       7002    0       1.0     1.0     0.0     0.0                     
+1     Stick Model Static Analyses for Comparison                            /    95 INTEL LINUX NASTRAN    / AUG 28, 18 / PAGE    12
+                                                                                                                                    
+
+                                                                                                                                    
+
+                                                  S O R T E D   B U L K    D A T A    E C H O                                       
+                     CARD                                                                                                           
+                     COUNT        ---1--- +++2+++ ---3--- +++4+++ ---5--- +++6+++ ---7--- +++8+++ ---9--- +++10+++                  
+                   48-        FORCE   8       7002    0       1.0     0.0     1.0     0.0                     
+                   49-        FORCE   9       7002    0       1.0     0.0     0.0     1.0                     
+                   50-        FORCE   10      7002    0       0.0     1.0     1.0     1.0                     
+                   51-        FORCE   11      7002    0       0.0     1.0     1.0     1.0                     
+                   52-        FORCE   12      7002    0       0.0     1.0     1.0     1.0                     
+                   53-        FORCE   13      7003    0       1.0     1.0     0.0     0.0                     
+                   54-        FORCE   14      7003    0       1.0     0.0     1.0     0.0                     
+                   55-        FORCE   15      7003    0       1.0     0.0     0.0     1.0                     
+                   56-        FORCE   16      7003    0       0.0     1.0     1.0     1.0                     
+                   57-        FORCE   17      7003    0       0.0     1.0     1.0     1.0                     
+                   58-        FORCE   18      7003    0       0.0     1.0     1.0     1.0                     
+                   59-        FORCE   19      7004    0       1.0     1.0     0.0     0.0                     
+                   60-        FORCE   20      7004    0       1.0     0.0     1.0     0.0                     
+                   61-        FORCE   21      7004    0       1.0     0.0     0.0     1.0                     
+                   62-        FORCE   22      7004    0       0.0     1.0     1.0     1.0                     
+                   63-        FORCE   23      7004    0       0.0     1.0     1.0     1.0                     
+                   64-        FORCE   24      7004    0       0.0     1.0     1.0     1.0                     
+                   65-        FORCE   25      7005    0       1.0     1.0     0.0     0.0                     
+                   66-        FORCE   26      7005    0       1.0     0.0     1.0     0.0                     
+                   67-        FORCE   27      7005    0       1.0     0.0     0.0     1.0                     
+                   68-        FORCE   28      7005    0       0.0     1.0     1.0     1.0                     
+                   69-        FORCE   29      7005    0       0.0     1.0     1.0     1.0                     
+                   70-        FORCE   30      7005    0       0.0     1.0     1.0     1.0                     
+                   71-        FORCE   31      7006    0       1.0     1.0     0.0     0.0                     
+                   72-        FORCE   32      7006    0       1.0     0.0     1.0     0.0                     
+                   73-        FORCE   33      7006    0       1.0     0.0     0.0     1.0                     
+                   74-        FORCE   34      7006    0       0.0     1.0     1.0     1.0                     
+                   75-        FORCE   35      7006    0       0.0     1.0     1.0     1.0                     
+                   76-        FORCE   36      7006    0       0.0     1.0     1.0     1.0                     
+                   77-        FORCE   37      7007    0       1.0     1.0     0.0     0.0                     
+                   78-        FORCE   38      7007    0       1.0     0.0     1.0     0.0                     
+                   79-        FORCE   39      7007    0       1.0     0.0     0.0     1.0                     
+                   80-        FORCE   40      7007    0       0.0     1.0     1.0     1.0                     
+                   81-        FORCE   41      7007    0       0.0     1.0     1.0     1.0                     
+                   82-        FORCE   42      7007    0       0.0     1.0     1.0     1.0                     
+                   83-        FORCE   43      7008    0       1.0     1.0     0.0     0.0                     
+                   84-        FORCE   44      7008    0       1.0     0.0     1.0     0.0                     
+                   85-        FORCE   45      7008    0       1.0     0.0     0.0     1.0                     
+                   86-        FORCE   46      7008    0       0.0     1.0     1.0     1.0                     
+                   87-        FORCE   47      7008    0       0.0     1.0     1.0     1.0                     
+                   88-        FORCE   48      7008    0       0.0     1.0     1.0     1.0                     
+                   89-        FORCE   49      7009    0       1.0     1.0     0.0     0.0                     
+                   90-        FORCE   50      7009    0       1.0     0.0     1.0     0.0                     
+                   91-        FORCE   51      7009    0       1.0     0.0     0.0     1.0                     
+                   92-        FORCE   52      7009    0       0.0     1.0     1.0     1.0                     
+                   93-        FORCE   53      7009    0       0.0     1.0     1.0     1.0                     
+                   94-        FORCE   54      7009    0       0.0     1.0     1.0     1.0                     
+1     Stick Model Static Analyses for Comparison                            /    95 INTEL LINUX NASTRAN    / AUG 28, 18 / PAGE    13
+                                                                                                                                    
+
+                                                                                                                                    
+
+                                                  S O R T E D   B U L K    D A T A    E C H O                                       
+                     CARD                                                                                                           
+                     COUNT        ---1--- +++2+++ ---3--- +++4+++ ---5--- +++6+++ ---7--- +++8+++ ---9--- +++10+++                  
+                   95-        FORCE   55      7010    0       1.0     1.0     0.0     0.0                     
+                   96-        FORCE   56      7010    0       1.0     0.0     1.0     0.0                     
+                   97-        FORCE   57      7010    0       1.0     0.0     0.0     1.0                     
+                   98-        FORCE   58      7010    0       0.0     1.0     1.0     1.0                     
+                   99-        FORCE   59      7010    0       0.0     1.0     1.0     1.0                     
+                  100-        FORCE   60      7010    0       0.0     1.0     1.0     1.0                     
+                  101-        FORCE   61      7011    0       1.0     1.0     0.0     0.0                     
+                  102-        FORCE   62      7011    0       1.0     0.0     1.0     0.0                     
+                  103-        FORCE   63      7011    0       1.0     0.0     0.0     1.0                     
+                  104-        FORCE   64      7011    0       0.0     1.0     1.0     1.0                     
+                  105-        FORCE   65      7011    0       0.0     1.0     1.0     1.0                     
+                  106-        FORCE   66      7011    0       0.0     1.0     1.0     1.0                     
+                  107-        FORCE   67      7012    0       1.0     1.0     0.0     0.0                     
+                  108-        FORCE   68      7012    0       1.0     0.0     1.0     0.0                     
+                  109-        FORCE   69      7012    0       1.0     0.0     0.0     1.0                     
+                  110-        FORCE   70      7012    0       0.0     1.0     1.0     1.0                     
+                  111-        FORCE   71      7012    0       0.0     1.0     1.0     1.0                     
+                  112-        FORCE   72      7012    0       0.0     1.0     1.0     1.0                     
+                  113-        FORCE   73      7013    0       1.0     1.0     0.0     0.0                     
+                  114-        FORCE   74      7013    0       1.0     0.0     1.0     0.0                     
+                  115-        FORCE   75      7013    0       1.0     0.0     0.0     1.0                     
+                  116-        FORCE   76      7013    0       0.0     1.0     1.0     1.0                     
+                  117-        FORCE   77      7013    0       0.0     1.0     1.0     1.0                     
+                  118-        FORCE   78      7013    0       0.0     1.0     1.0     1.0                     
+                  119-        FORCE   79      7014    0       1.0     1.0     0.0     0.0                     
+                  120-        FORCE   80      7014    0       1.0     0.0     1.0     0.0                     
+                  121-        FORCE   81      7014    0       1.0     0.0     0.0     1.0                     
+                  122-        FORCE   82      7014    0       0.0     1.0     1.0     1.0                     
+                  123-        FORCE   83      7014    0       0.0     1.0     1.0     1.0                     
+                  124-        FORCE   84      7014    0       0.0     1.0     1.0     1.0                     
+                  125-        FORCE   85      7015    0       1.0     1.0     0.0     0.0                     
+                  126-        FORCE   86      7015    0       1.0     0.0     1.0     0.0                     
+                  127-        FORCE   87      7015    0       1.0     0.0     0.0     1.0                     
+                  128-        FORCE   88      7015    0       0.0     1.0     1.0     1.0                     
+                  129-        FORCE   89      7015    0       0.0     1.0     1.0     1.0                     
+                  130-        FORCE   90      7015    0       0.0     1.0     1.0     1.0                     
+                  131-        FORCE   91      7016    0       1.0     1.0     0.0     0.0                     
+                  132-        FORCE   92      7016    0       1.0     0.0     1.0     0.0                     
+                  133-        FORCE   93      7016    0       1.0     0.0     0.0     1.0                     
+                  134-        FORCE   94      7016    0       0.0     1.0     1.0     1.0                     
+                  135-        FORCE   95      7016    0       0.0     1.0     1.0     1.0                     
+                  136-        FORCE   96      7016    0       0.0     1.0     1.0     1.0                     
+                  137-        FORCE   97      7017    0       1.0     1.0     0.0     0.0                     
+                  138-        FORCE   98      7017    0       1.0     0.0     1.0     0.0                     
+                  139-        FORCE   99      7017    0       1.0     0.0     0.0     1.0                     
+                  140-        FORCE   100     7017    0       0.0     1.0     1.0     1.0                     
+                  141-        FORCE   101     7017    0       0.0     1.0     1.0     1.0                     
+1     Stick Model Static Analyses for Comparison                            /    95 INTEL LINUX NASTRAN    / AUG 28, 18 / PAGE    14
+                                                                                                                                    
+
+                                                                                                                                    
+
+                                                  S O R T E D   B U L K    D A T A    E C H O                                       
+                     CARD                                                                                                           
+                     COUNT        ---1--- +++2+++ ---3--- +++4+++ ---5--- +++6+++ ---7--- +++8+++ ---9--- +++10+++                  
+                  142-        FORCE   102     7017    0       0.0     1.0     1.0     1.0                     
+                  143-        FORCE   103     7018    0       1.0     1.0     0.0     0.0                     
+                  144-        FORCE   104     7018    0       1.0     0.0     1.0     0.0                     
+                  145-        FORCE   105     7018    0       1.0     0.0     0.0     1.0                     
+                  146-        FORCE   106     7018    0       0.0     1.0     1.0     1.0                     
+                  147-        FORCE   107     7018    0       0.0     1.0     1.0     1.0                     
+                  148-        FORCE   108     7018    0       0.0     1.0     1.0     1.0                     
+                  149-        FORCE   109     7019    0       1.0     1.0     0.0     0.0                     
+                  150-        FORCE   110     7019    0       1.0     0.0     1.0     0.0                     
+                  151-        FORCE   111     7019    0       1.0     0.0     0.0     1.0                     
+                  152-        FORCE   112     7019    0       0.0     1.0     1.0     1.0                     
+                  153-        FORCE   113     7019    0       0.0     1.0     1.0     1.0                     
+                  154-        FORCE   114     7019    0       0.0     1.0     1.0     1.0                     
+                  155-        FORCE   115     7020    0       1.0     1.0     0.0     0.0                     
+                  156-        FORCE   116     7020    0       1.0     0.0     1.0     0.0                     
+                  157-        FORCE   117     7020    0       1.0     0.0     0.0     1.0                     
+                  158-        FORCE   118     7020    0       0.0     1.0     1.0     1.0                     
+                  159-        FORCE   119     7020    0       0.0     1.0     1.0     1.0                     
+                  160-        FORCE   120     7020    0       0.0     1.0     1.0     1.0                     
+                  161-        GRID    7000    0       0.0     0.0     0.0     0                               
+                  162-        GRID    7001    0       1.31    0.0     0.0     0                               
+                  163-        GRID    7002    0       2.62    0.0     0.0     0                               
+                  164-        GRID    7003    0       3.93    0.0     0.0     0                               
+                  165-        GRID    7004    0       5.24    0.0     0.0     0                               
+                  166-        GRID    7005    0       6.55    0.0     0.0     0                               
+                  167-        GRID    7006    0       7.86    0.0     0.0     0                               
+                  168-        GRID    7007    0       9.17    0.0     0.0     0                               
+                  169-        GRID    7008    0       10.48   0.0     0.0     0                               
+                  170-        GRID    7009    0       11.79   0.0     0.0     0                               
+                  171-        GRID    7010    0       13.1    0.0     0.0     0                               
+                  172-        GRID    7011    0       14.41   0.0     0.0     0                               
+                  173-        GRID    7012    0       15.72   0.0     0.0     0                               
+                  174-        GRID    7013    0       17.03   0.0     0.0     0                               
+                  175-        GRID    7014    0       18.34   0.0     0.0     0                               
+                  176-        GRID    7015    0       19.65   0.0     0.0     0                               
+                  177-        GRID    7016    0       20.96   0.0     0.0     0                               
+                  178-        GRID    7017    0       22.27   0.0     0.0     0                               
+                  179-        GRID    7018    0       23.58   0.0     0.0     0                               
+                  180-        GRID    7019    0       24.89   0.0     0.0     0                               
+                  181-        GRID    7020    0       26.2    0.0     0.0     0                               
+                  182-        LOAD    122     1.0     1.0     1                                               
+                  183-        LOAD    123     1.0     1.0     2                                               
+                  184-        LOAD    124     1.0     1.0     3                                               
+                  185-        LOAD    125     1.0     1.0     4                                               
+                  186-        LOAD    126     1.0     1.0     5                                               
+                  187-        LOAD    127     1.0     1.0     6                                               
+                  188-        LOAD    128     1.0     1.0     7                                               
+1     Stick Model Static Analyses for Comparison                            /    95 INTEL LINUX NASTRAN    / AUG 28, 18 / PAGE    15
+                                                                                                                                    
+
+                                                                                                                                    
+
+                                                  S O R T E D   B U L K    D A T A    E C H O                                       
+                     CARD                                                                                                           
+                     COUNT        ---1--- +++2+++ ---3--- +++4+++ ---5--- +++6+++ ---7--- +++8+++ ---9--- +++10+++                  
+                  189-        LOAD    129     1.0     1.0     8                                               
+                  190-        LOAD    130     1.0     1.0     9                                               
+                  191-        LOAD    131     1.0     1.0     10                                              
+                  192-        LOAD    132     1.0     1.0     11                                              
+                  193-        LOAD    133     1.0     1.0     12                                              
+                  194-        LOAD    134     1.0     1.0     13                                              
+                  195-        LOAD    135     1.0     1.0     14                                              
+                  196-        LOAD    136     1.0     1.0     15                                              
+                  197-        LOAD    137     1.0     1.0     16                                              
+                  198-        LOAD    138     1.0     1.0     17                                              
+                  199-        LOAD    139     1.0     1.0     18                                              
+                  200-        LOAD    140     1.0     1.0     19                                              
+                  201-        LOAD    141     1.0     1.0     20                                              
+                  202-        LOAD    142     1.0     1.0     21                                              
+                  203-        LOAD    143     1.0     1.0     22                                              
+                  204-        LOAD    144     1.0     1.0     23                                              
+                  205-        LOAD    145     1.0     1.0     24                                              
+                  206-        LOAD    146     1.0     1.0     25                                              
+                  207-        LOAD    147     1.0     1.0     26                                              
+                  208-        LOAD    148     1.0     1.0     27                                              
+                  209-        LOAD    149     1.0     1.0     28                                              
+                  210-        LOAD    150     1.0     1.0     29                                              
+                  211-        LOAD    151     1.0     1.0     30                                              
+                  212-        LOAD    152     1.0     1.0     31                                              
+                  213-        LOAD    153     1.0     1.0     32                                              
+                  214-        LOAD    154     1.0     1.0     33                                              
+                  215-        LOAD    155     1.0     1.0     34                                              
+                  216-        LOAD    156     1.0     1.0     35                                              
+                  217-        LOAD    157     1.0     1.0     36                                              
+                  218-        LOAD    158     1.0     1.0     37                                              
+                  219-        LOAD    159     1.0     1.0     38                                              
+                  220-        LOAD    160     1.0     1.0     39                                              
+                  221-        LOAD    161     1.0     1.0     40                                              
+                  222-        LOAD    162     1.0     1.0     41                                              
+                  223-        LOAD    163     1.0     1.0     42                                              
+                  224-        LOAD    164     1.0     1.0     43                                              
+                  225-        LOAD    165     1.0     1.0     44                                              
+                  226-        LOAD    166     1.0     1.0     45                                              
+                  227-        LOAD    167     1.0     1.0     46                                              
+                  228-        LOAD    168     1.0     1.0     47                                              
+                  229-        LOAD    169     1.0     1.0     48                                              
+                  230-        LOAD    170     1.0     1.0     49                                              
+                  231-        LOAD    171     1.0     1.0     50                                              
+                  232-        LOAD    172     1.0     1.0     51                                              
+                  233-        LOAD    173     1.0     1.0     52                                              
+                  234-        LOAD    174     1.0     1.0     53                                              
+                  235-        LOAD    175     1.0     1.0     54                                              
+1     Stick Model Static Analyses for Comparison                            /    95 INTEL LINUX NASTRAN    / AUG 28, 18 / PAGE    16
+                                                                                                                                    
+
+                                                                                                                                    
+
+                                                  S O R T E D   B U L K    D A T A    E C H O                                       
+                     CARD                                                                                                           
+                     COUNT        ---1--- +++2+++ ---3--- +++4+++ ---5--- +++6+++ ---7--- +++8+++ ---9--- +++10+++                  
+                  236-        LOAD    176     1.0     1.0     55                                              
+                  237-        LOAD    177     1.0     1.0     56                                              
+                  238-        LOAD    178     1.0     1.0     57                                              
+                  239-        LOAD    179     1.0     1.0     58                                              
+                  240-        LOAD    180     1.0     1.0     59                                              
+                  241-        LOAD    181     1.0     1.0     60                                              
+                  242-        LOAD    182     1.0     1.0     61                                              
+                  243-        LOAD    183     1.0     1.0     62                                              
+                  244-        LOAD    184     1.0     1.0     63                                              
+                  245-        LOAD    185     1.0     1.0     64                                              
+                  246-        LOAD    186     1.0     1.0     65                                              
+                  247-        LOAD    187     1.0     1.0     66                                              
+                  248-        LOAD    188     1.0     1.0     67                                              
+                  249-        LOAD    189     1.0     1.0     68                                              
+                  250-        LOAD    190     1.0     1.0     69                                              
+                  251-        LOAD    191     1.0     1.0     70                                              
+                  252-        LOAD    192     1.0     1.0     71                                              
+                  253-        LOAD    193     1.0     1.0     72                                              
+                  254-        LOAD    194     1.0     1.0     73                                              
+                  255-        LOAD    195     1.0     1.0     74                                              
+                  256-        LOAD    196     1.0     1.0     75                                              
+                  257-        LOAD    197     1.0     1.0     76                                              
+                  258-        LOAD    198     1.0     1.0     77                                              
+                  259-        LOAD    199     1.0     1.0     78                                              
+                  260-        LOAD    200     1.0     1.0     79                                              
+                  261-        LOAD    201     1.0     1.0     80                                              
+                  262-        LOAD    202     1.0     1.0     81                                              
+                  263-        LOAD    203     1.0     1.0     82                                              
+                  264-        LOAD    204     1.0     1.0     83                                              
+                  265-        LOAD    205     1.0     1.0     84                                              
+                  266-        LOAD    206     1.0     1.0     85                                              
+                  267-        LOAD    207     1.0     1.0     86                                              
+                  268-        LOAD    208     1.0     1.0     87                                              
+                  269-        LOAD    209     1.0     1.0     88                                              
+                  270-        LOAD    210     1.0     1.0     89                                              
+                  271-        LOAD    211     1.0     1.0     90                                              
+                  272-        LOAD    212     1.0     1.0     91                                              
+                  273-        LOAD    213     1.0     1.0     92                                              
+                  274-        LOAD    214     1.0     1.0     93                                              
+                  275-        LOAD    215     1.0     1.0     94                                              
+                  276-        LOAD    216     1.0     1.0     95                                              
+                  277-        LOAD    217     1.0     1.0     96                                              
+                  278-        LOAD    218     1.0     1.0     97                                              
+                  279-        LOAD    219     1.0     1.0     98                                              
+                  280-        LOAD    220     1.0     1.0     99                                              
+                  281-        LOAD    221     1.0     1.0     100                                             
+                  282-        LOAD    222     1.0     1.0     101                                             
+1     Stick Model Static Analyses for Comparison                            /    95 INTEL LINUX NASTRAN    / AUG 28, 18 / PAGE    17
+                                                                                                                                    
+
+                                                                                                                                    
+
+                                                  S O R T E D   B U L K    D A T A    E C H O                                       
+                     CARD                                                                                                           
+                     COUNT        ---1--- +++2+++ ---3--- +++4+++ ---5--- +++6+++ ---7--- +++8+++ ---9--- +++10+++                  
+                  283-        LOAD    223     1.0     1.0     102                                             
+                  284-        LOAD    224     1.0     1.0     103                                             
+                  285-        LOAD    225     1.0     1.0     104                                             
+                  286-        LOAD    226     1.0     1.0     105                                             
+                  287-        LOAD    227     1.0     1.0     106                                             
+                  288-        LOAD    228     1.0     1.0     107                                             
+                  289-        LOAD    229     1.0     1.0     108                                             
+                  290-        LOAD    230     1.0     1.0     109                                             
+                  291-        LOAD    231     1.0     1.0     110                                             
+                  292-        LOAD    232     1.0     1.0     111                                             
+                  293-        LOAD    233     1.0     1.0     112                                             
+                  294-        LOAD    234     1.0     1.0     113                                             
+                  295-        LOAD    235     1.0     1.0     114                                             
+                  296-        LOAD    236     1.0     1.0     115                                             
+                  297-        LOAD    237     1.0     1.0     116                                             
+                  298-        LOAD    238     1.0     1.0     117                                             
+                  299-        LOAD    239     1.0     1.0     118                                             
+                  300-        LOAD    240     1.0     1.0     119                                             
+                  301-        LOAD    241     1.0     1.0     120                                             
+                  302-        MAT1    1       7.000+102.632+10        0.0                                     
+                  303-        MOMENT  1       7001    0       0.0     1.0     1.0     1.0                     
+                  304-        MOMENT  2       7001    0       0.0     1.0     1.0     1.0                     
+                  305-        MOMENT  3       7001    0       0.0     1.0     1.0     1.0                     
+                  306-        MOMENT  4       7001    0       1.0     1.0     0.0     0.0                     
+                  307-        MOMENT  5       7001    0       1.0     0.0     1.0     0.0                     
+                  308-        MOMENT  6       7001    0       1.0     0.0     0.0     1.0                     
+                  309-        MOMENT  7       7002    0       0.0     1.0     1.0     1.0                     
+                  310-        MOMENT  8       7002    0       0.0     1.0     1.0     1.0                     
+                  311-        MOMENT  9       7002    0       0.0     1.0     1.0     1.0                     
+                  312-        MOMENT  10      7002    0       1.0     1.0     0.0     0.0                     
+                  313-        MOMENT  11      7002    0       1.0     0.0     1.0     0.0                     
+                  314-        MOMENT  12      7002    0       1.0     0.0     0.0     1.0                     
+                  315-        MOMENT  13      7003    0       0.0     1.0     1.0     1.0                     
+                  316-        MOMENT  14      7003    0       0.0     1.0     1.0     1.0                     
+                  317-        MOMENT  15      7003    0       0.0     1.0     1.0     1.0                     
+                  318-        MOMENT  16      7003    0       1.0     1.0     0.0     0.0                     
+                  319-        MOMENT  17      7003    0       1.0     0.0     1.0     0.0                     
+                  320-        MOMENT  18      7003    0       1.0     0.0     0.0     1.0                     
+                  321-        MOMENT  19      7004    0       0.0     1.0     1.0     1.0                     
+                  322-        MOMENT  20      7004    0       0.0     1.0     1.0     1.0                     
+                  323-        MOMENT  21      7004    0       0.0     1.0     1.0     1.0                     
+                  324-        MOMENT  22      7004    0       1.0     1.0     0.0     0.0                     
+                  325-        MOMENT  23      7004    0       1.0     0.0     1.0     0.0                     
+                  326-        MOMENT  24      7004    0       1.0     0.0     0.0     1.0                     
+                  327-        MOMENT  25      7005    0       0.0     1.0     1.0     1.0                     
+                  328-        MOMENT  26      7005    0       0.0     1.0     1.0     1.0                     
+                  329-        MOMENT  27      7005    0       0.0     1.0     1.0     1.0                     
+1     Stick Model Static Analyses for Comparison                            /    95 INTEL LINUX NASTRAN    / AUG 28, 18 / PAGE    18
+                                                                                                                                    
+
+                                                                                                                                    
+
+                                                  S O R T E D   B U L K    D A T A    E C H O                                       
+                     CARD                                                                                                           
+                     COUNT        ---1--- +++2+++ ---3--- +++4+++ ---5--- +++6+++ ---7--- +++8+++ ---9--- +++10+++                  
+                  330-        MOMENT  28      7005    0       1.0     1.0     0.0     0.0                     
+                  331-        MOMENT  29      7005    0       1.0     0.0     1.0     0.0                     
+                  332-        MOMENT  30      7005    0       1.0     0.0     0.0     1.0                     
+                  333-        MOMENT  31      7006    0       0.0     1.0     1.0     1.0                     
+                  334-        MOMENT  32      7006    0       0.0     1.0     1.0     1.0                     
+                  335-        MOMENT  33      7006    0       0.0     1.0     1.0     1.0                     
+                  336-        MOMENT  34      7006    0       1.0     1.0     0.0     0.0                     
+                  337-        MOMENT  35      7006    0       1.0     0.0     1.0     0.0                     
+                  338-        MOMENT  36      7006    0       1.0     0.0     0.0     1.0                     
+                  339-        MOMENT  37      7007    0       0.0     1.0     1.0     1.0                     
+                  340-        MOMENT  38      7007    0       0.0     1.0     1.0     1.0                     
+                  341-        MOMENT  39      7007    0       0.0     1.0     1.0     1.0                     
+                  342-        MOMENT  40      7007    0       1.0     1.0     0.0     0.0                     
+                  343-        MOMENT  41      7007    0       1.0     0.0     1.0     0.0                     
+                  344-        MOMENT  42      7007    0       1.0     0.0     0.0     1.0                     
+                  345-        MOMENT  43      7008    0       0.0     1.0     1.0     1.0                     
+                  346-        MOMENT  44      7008    0       0.0     1.0     1.0     1.0                     
+                  347-        MOMENT  45      7008    0       0.0     1.0     1.0     1.0                     
+                  348-        MOMENT  46      7008    0       1.0     1.0     0.0     0.0                     
+                  349-        MOMENT  47      7008    0       1.0     0.0     1.0     0.0                     
+                  350-        MOMENT  48      7008    0       1.0     0.0     0.0     1.0                     
+                  351-        MOMENT  49      7009    0       0.0     1.0     1.0     1.0                     
+                  352-        MOMENT  50      7009    0       0.0     1.0     1.0     1.0                     
+                  353-        MOMENT  51      7009    0       0.0     1.0     1.0     1.0                     
+                  354-        MOMENT  52      7009    0       1.0     1.0     0.0     0.0                     
+                  355-        MOMENT  53      7009    0       1.0     0.0     1.0     0.0                     
+                  356-        MOMENT  54      7009    0       1.0     0.0     0.0     1.0                     
+                  357-        MOMENT  55      7010    0       0.0     1.0     1.0     1.0                     
+                  358-        MOMENT  56      7010    0       0.0     1.0     1.0     1.0                     
+                  359-        MOMENT  57      7010    0       0.0     1.0     1.0     1.0                     
+                  360-        MOMENT  58      7010    0       1.0     1.0     0.0     0.0                     
+                  361-        MOMENT  59      7010    0       1.0     0.0     1.0     0.0                     
+                  362-        MOMENT  60      7010    0       1.0     0.0     0.0     1.0                     
+                  363-        MOMENT  61      7011    0       0.0     1.0     1.0     1.0                     
+                  364-        MOMENT  62      7011    0       0.0     1.0     1.0     1.0                     
+                  365-        MOMENT  63      7011    0       0.0     1.0     1.0     1.0                     
+                  366-        MOMENT  64      7011    0       1.0     1.0     0.0     0.0                     
+                  367-        MOMENT  65      7011    0       1.0     0.0     1.0     0.0                     
+                  368-        MOMENT  66      7011    0       1.0     0.0     0.0     1.0                     
+                  369-        MOMENT  67      7012    0       0.0     1.0     1.0     1.0                     
+                  370-        MOMENT  68      7012    0       0.0     1.0     1.0     1.0                     
+                  371-        MOMENT  69      7012    0       0.0     1.0     1.0     1.0                     
+                  372-        MOMENT  70      7012    0       1.0     1.0     0.0     0.0                     
+                  373-        MOMENT  71      7012    0       1.0     0.0     1.0     0.0                     
+                  374-        MOMENT  72      7012    0       1.0     0.0     0.0     1.0                     
+                  375-        MOMENT  73      7013    0       0.0     1.0     1.0     1.0                     
+                  376-        MOMENT  74      7013    0       0.0     1.0     1.0     1.0                     
+1     Stick Model Static Analyses for Comparison                            /    95 INTEL LINUX NASTRAN    / AUG 28, 18 / PAGE    19
+                                                                                                                                    
+
+                                                                                                                                    
+
+                                                  S O R T E D   B U L K    D A T A    E C H O                                       
+                     CARD                                                                                                           
+                     COUNT        ---1--- +++2+++ ---3--- +++4+++ ---5--- +++6+++ ---7--- +++8+++ ---9--- +++10+++                  
+                  377-        MOMENT  75      7013    0       0.0     1.0     1.0     1.0                     
+                  378-        MOMENT  76      7013    0       1.0     1.0     0.0     0.0                     
+                  379-        MOMENT  77      7013    0       1.0     0.0     1.0     0.0                     
+                  380-        MOMENT  78      7013    0       1.0     0.0     0.0     1.0                     
+                  381-        MOMENT  79      7014    0       0.0     1.0     1.0     1.0                     
+                  382-        MOMENT  80      7014    0       0.0     1.0     1.0     1.0                     
+                  383-        MOMENT  81      7014    0       0.0     1.0     1.0     1.0                     
+                  384-        MOMENT  82      7014    0       1.0     1.0     0.0     0.0                     
+                  385-        MOMENT  83      7014    0       1.0     0.0     1.0     0.0                     
+                  386-        MOMENT  84      7014    0       1.0     0.0     0.0     1.0                     
+                  387-        MOMENT  85      7015    0       0.0     1.0     1.0     1.0                     
+                  388-        MOMENT  86      7015    0       0.0     1.0     1.0     1.0                     
+                  389-        MOMENT  87      7015    0       0.0     1.0     1.0     1.0                     
+                  390-        MOMENT  88      7015    0       1.0     1.0     0.0     0.0                     
+                  391-        MOMENT  89      7015    0       1.0     0.0     1.0     0.0                     
+                  392-        MOMENT  90      7015    0       1.0     0.0     0.0     1.0                     
+                  393-        MOMENT  91      7016    0       0.0     1.0     1.0     1.0                     
+                  394-        MOMENT  92      7016    0       0.0     1.0     1.0     1.0                     
+                  395-        MOMENT  93      7016    0       0.0     1.0     1.0     1.0                     
+                  396-        MOMENT  94      7016    0       1.0     1.0     0.0     0.0                     
+                  397-        MOMENT  95      7016    0       1.0     0.0     1.0     0.0                     
+                  398-        MOMENT  96      7016    0       1.0     0.0     0.0     1.0                     
+                  399-        MOMENT  97      7017    0       0.0     1.0     1.0     1.0                     
+                  400-        MOMENT  98      7017    0       0.0     1.0     1.0     1.0                     
+                  401-        MOMENT  99      7017    0       0.0     1.0     1.0     1.0                     
+                  402-        MOMENT  100     7017    0       1.0     1.0     0.0     0.0                     
+                  403-        MOMENT  101     7017    0       1.0     0.0     1.0     0.0                     
+                  404-        MOMENT  102     7017    0       1.0     0.0     0.0     1.0                     
+                  405-        MOMENT  103     7018    0       0.0     1.0     1.0     1.0                     
+                  406-        MOMENT  104     7018    0       0.0     1.0     1.0     1.0                     
+                  407-        MOMENT  105     7018    0       0.0     1.0     1.0     1.0                     
+                  408-        MOMENT  106     7018    0       1.0     1.0     0.0     0.0                     
+                  409-        MOMENT  107     7018    0       1.0     0.0     1.0     0.0                     
+                  410-        MOMENT  108     7018    0       1.0     0.0     0.0     1.0                     
+                  411-        MOMENT  109     7019    0       0.0     1.0     1.0     1.0                     
+                  412-        MOMENT  110     7019    0       0.0     1.0     1.0     1.0                     
+                  413-        MOMENT  111     7019    0       0.0     1.0     1.0     1.0                     
+                  414-        MOMENT  112     7019    0       1.0     1.0     0.0     0.0                     
+                  415-        MOMENT  113     7019    0       1.0     0.0     1.0     0.0                     
+                  416-        MOMENT  114     7019    0       1.0     0.0     0.0     1.0                     
+                  417-        MOMENT  115     7020    0       0.0     1.0     1.0     1.0                     
+                  418-        MOMENT  116     7020    0       0.0     1.0     1.0     1.0                     
+                  419-        MOMENT  117     7020    0       0.0     1.0     1.0     1.0                     
+                  420-        MOMENT  118     7020    0       1.0     1.0     0.0     0.0                     
+                  421-        MOMENT  119     7020    0       1.0     0.0     1.0     0.0                     
+                  422-        MOMENT  120     7020    0       1.0     0.0     0.0     1.0                     
+                  423-        PBAR    1       1       8.7359-26.2474-14.2745-31.0081-1                        
+1     Stick Model Static Analyses for Comparison                            /    95 INTEL LINUX NASTRAN    / AUG 28, 18 / PAGE    20
+                                                                                                                                    
+
+                                                                                                                                    
+
+                                                  S O R T E D   B U L K    D A T A    E C H O                                       
+                     CARD                                                                                                           
+                     COUNT        ---1--- +++2+++ ---3--- +++4+++ ---5--- +++6+++ ---7--- +++8+++ ---9--- +++10+++                  
+                  424-        PBAR    2       1       8.4154-24.6626-12.9294-37.6294-2                        
+                  425-        PBAR    3       1       7.9700-23.7290-12.2307-35.5072-2                        
+                  426-        PBAR    4       1       7.5079-22.9269-11.6601-33.8707-2                        
+                  427-        PBAR    5       1       7.0535-22.2548-11.2102-32.6278-2                        
+                  428-        PBAR    6       1       6.6251-21.7019-18.6275-41.7100-2                        
+                  429-        PBAR    7       1       6.2757-21.4187-16.6485-41.2913-2                        
+                  430-        PBAR    8       1       6.1051-21.2908-15.6338-41.0514-2                        
+                  431-        PBAR    9       1       5.9567-21.1494-14.6524-48.2951-3                        
+                  432-        PBAR    10      1       5.7276-29.8134-23.6833-46.3011-3                        
+                  433-        PBAR    11      1       5.5094-28.3490-22.8974-44.6981-3                        
+                  434-        PBAR    12      1       5.2902-27.0405-22.2502-43.4367-3                        
+                  435-        PBAR    13      1       5.0693-25.8763-21.7229-42.4621-3                        
+                  436-        PBAR    14      1       4.8458-24.8474-21.2981-41.7239-3                        
+                  437-        PBAR    15      1       4.6187-23.9450-29.6056-51.1768-3                        
+                  438-        PBAR    16      1       4.3868-23.1603-26.9603-57.8091-4                        
+                  439-        PBAR    17      1       4.1482-22.4852-24.9243-55.0203-4                        
+                  440-        PBAR    18      1       3.9008-21.9113-23.3851-53.1126-4                        
+                  441-        PBAR    19      1       3.6360-21.4295-22.2422-51.8492-4                        
+                  442-        PBAR    20      1       2.8130-29.1363-31.2014-59.9215-5                        
+                  443-        SPC1    1       123456  7000                                                    
+                              ENDDATA
+1     Stick Model Static Analyses for Comparison                            /    95 INTEL LINUX NASTRAN    / AUG 28, 18 / PAGE    21
+                                                                                                                                    
+0                                                                                                                                   
+0*** USER INFORMATION MESSAGES FROM RESEQUENCING PROCESSOR - BANDIT     (CRI= 1,  MTH= 3,  MPC= 0,  DEP=-1,  PCH=-1)
+
+                               BEFORE RESEQUENCING - - -
+                                        BANDWIDTH            2
+                                        PROFILE             41
+                                        MAX WAVEFRONT        2
+                                        AVG WAVEFRONT    1.952
+                                        RMS WAVEFRONT    1.964
+                                        RMS BANDWIDTH    1.964
+
+                               AFTER RESEQUENCING BY GIBBS-POOLE-STOCKMEYER (GPS) ALGORITHM - - -
+                                        BANDWIDTH            2
+                                        PROFILE             41
+                                        MAX WAVEFRONT        2
+                                        AVG WAVEFRONT    1.952
+                                        RMS WAVEFRONT    1.964
+                                        RMS BANDWIDTH    1.964
+
+
+                                                     *** BANDIT SUMMARY ***
+
+                                                                        BEFORE     AFTER
+                                        BANDWIDTH (B)                        2         2
+                                        PROFILE (P)                         41        41
+                                        MAXIMUM WAVEFRONT (C-MAX)            2         2
+                                        AVERAGE WAVEFRONT (C-AVG)        1.952     1.952
+                                        RMS WAVEFRONT (C-RMS)            1.964     1.964
+                                        RMS BANDWITCH (B-RMS)            1.964     1.964
+                                        NUMBER OF GRID POINTS (N)                     21
+                                        NUMBER OF ELEMENTS (NON-RIGID)                20
+                                        NUMBER OF RIGID ELEMENTS PROCESSED*            0
+                                        NUMBER OF MPC  EQUATIONS PROCESSED*            0
+                                        NUMBER OF COMPONENTS                           1
+                                        MAXIMUM NODAL DEGREE                           2
+                                        MINIMUM NODAL DEGREE                           1
+                                        NUMBER OF UNIQUE EDGES                        20
+                                        MATRIX DENSITY, PERCENT                   13.832
+                                        NUMBER OF POINTS OF ZERO DEGREE                0
+                                        BANDIT OPEN CORE                        ********
+                                        CRITERION*                         RMS WAVEFRONT
+                                        METHOD USED*                                 GPS
+
+                               (* THESE DEFAULT OPTIONS CAN BE OVERRIDDEN BY THE NASTRAN CARD)
+
+
+                               BANDIT FINDS GRID POINT RE-SEQUENCING NOT NECESSARY
+0         **NO ERRORS FOUND - EXECUTE NASTRAN PROGRAM**
+0*** USER INFORMATION MESSAGE 238, TURN DIAG 38 ON FOR ADDITIONAL ELEMENT PROCESSING INFORMATION
+
+0*** USER INFORMATION MESSAGE 3113,
+     EMG MODULE PROCESSING DOUBLE PRECISION BAR      ELEMENTS (ELEMENT TYPE  34) STARTING WITH ID        1
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER     1, EPSILON SUB E =  -6.5549788E-15
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER     2, EPSILON SUB E =  -6.8000483E-14
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER     3, EPSILON SUB E =   1.3552053E-14
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER     4, EPSILON SUB E =   1.7436395E-15
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER     5, EPSILON SUB E =   3.1969605E-14
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER     6, EPSILON SUB E =   5.9029760E-15
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER     7, EPSILON SUB E =  -8.5004777E-14
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER     8, EPSILON SUB E =  -1.7776794E-13
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER     9, EPSILON SUB E =  -8.7885005E-15
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER    10, EPSILON SUB E =  -7.5946377E-16
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER    11, EPSILON SUB E =  -2.0766471E-14
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER    12, EPSILON SUB E =  -1.1106797E-13
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER    13, EPSILON SUB E =  -4.5280481E-14
+1     Stick Model Static Analyses for Comparison                            /    95 INTEL LINUX NASTRAN    / AUG 28, 18 / PAGE    22
+                                                                                                                                    
+
+                                                                                                                                    
+
+
+
+
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER    14, EPSILON SUB E =  -1.0386422E-13
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER    15, EPSILON SUB E =  -3.1401111E-14
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER    16, EPSILON SUB E =  -2.5668882E-15
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER    17, EPSILON SUB E =   2.1940127E-14
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER    18, EPSILON SUB E =  -3.8925985E-14
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER    19, EPSILON SUB E =  -1.0753143E-14
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER    20, EPSILON SUB E =  -2.7500032E-13
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER    21, EPSILON SUB E =  -9.0377257E-14
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER    22, EPSILON SUB E =  -3.8599440E-15
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER    23, EPSILON SUB E =   1.6721303E-13
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER    24, EPSILON SUB E =  -4.2698958E-13
+1     Stick Model Static Analyses for Comparison                            /    95 INTEL LINUX NASTRAN    / AUG 28, 18 / PAGE    23
+                                                                                                                                    
+
+                                                                                                                                    
+
+
+
+
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER    25, EPSILON SUB E =  -1.4308781E-13
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER    26, EPSILON SUB E =   8.0376901E-14
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER    27, EPSILON SUB E =   2.7599768E-13
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER    28, EPSILON SUB E =  -4.1665352E-15
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER    29, EPSILON SUB E =   6.6576376E-14
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER    30, EPSILON SUB E =   1.1157903E-13
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER    31, EPSILON SUB E =  -3.5808368E-13
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER    32, EPSILON SUB E =   2.5232100E-13
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER    33, EPSILON SUB E =   1.9849843E-13
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER    34, EPSILON SUB E =  -9.2283172E-15
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER    35, EPSILON SUB E =   1.0531222E-13
+1     Stick Model Static Analyses for Comparison                            /    95 INTEL LINUX NASTRAN    / AUG 28, 18 / PAGE    24
+                                                                                                                                    
+
+                                                                                                                                    
+
+
+
+
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER    36, EPSILON SUB E =  -4.5087439E-13
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER    37, EPSILON SUB E =  -7.7389199E-14
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER    38, EPSILON SUB E =  -1.2988211E-13
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER    39, EPSILON SUB E =  -1.3222207E-13
+0*** USER INFORMATION MESSAGE 3035
+     FOR SUBCASE NUMBER    40, EPSILON SUB E =  -8.8116829E-15
+0*** USER WARNING MESSAGE 3199, NON-FATAL MESSAGES MAY HAVE BEEN LOST BY ATTEMPTING TO QUEUE MORE THAN   40 MESSAGES
+
+
+
+
+                                        * * * END OF JOB * * *
+1
+ JOB TITLE =  Stick Model Static Analyses for Comparison                         
+ DATE:  8/28/18
+ END TIME: 16:40:36
+ TOTAL WALL CLOCK TIME      0 SEC.
+ 

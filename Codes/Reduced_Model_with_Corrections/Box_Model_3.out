@@ -1,0 +1,478 @@
+
+
+
+
+
+
+                                  ****
+                                *      *
+                               *        *
+                               *  N A S T R A N
+                               *        *
+                                *      *
+                                  ****
+
+
+                            INTEL COMPUTER SYSTEMS   
+                                 LINUX VERSION 
+
+                          SYSTEM RELEASE -  1995 ED.
+
+                                DISTRIBUTED BY
+
+         COMPUTER SOFTWARE MANAGEMENT AND INFORMATION CENTER (COSMIC)
+                 UNIVERSITY OF GEORGIA, ATHENS, GEORGIA 30602
+                 PHONE: (706)542-3265      FAX: (706)542-4807
+1                                                                           /    95 INTEL LINUX NASTRAN    / APR 12, 18 / PAGE     2
+                                                                                                                                    
+0                                                                                                                                   
+                                                                                                         
+                                                                                                         
+                         INSTALLATION CENTER USER INFORMATION GIVEN IN THIS SECTION                      
+                                                                                                         
+                                     *********************************************                       
+                                     *                                           *                       
+                                     *  PLEASE READ THE COMMENT IN DEMO PROBLEM  *                       
+                                     *  D01002A ABOUT SYSTEM TIMING CONSTANTS    *                       
+                                     *                                           *                       
+                                     *********************************************                       
+                                                                                                         
+                         ===X=    TOP OF PAGE REQUEST IF 'X' IS REPLACED BY '='                          
+                                                                                                         
+1                                                                           /    95 INTEL LINUX NASTRAN    / APR 12, 18 / PAGE     3
+                                                                                                                                    
+0                                                                                                                                   
+0*** USER INFORMATION MESSAGE 225, GINO TIME CONSTANTS ARE BEING COMPUTED
+     (SEE NASINFO FILE FOR ELIMINATION OF THESE COMPUTATIONS)
+1                                                                           /    95 INTEL LINUX NASTRAN    / APR 12, 18 / PAGE     4
+                                                                                                                                    
+0        N A S T R A N    E X E C U T I V E    C O N T R O L    D E C K    E C H O                                                  
+0                                                                                                                                   
+                                                                                                                                    
+                                                                                                                                    
+     $ADD_PRE_BULK_CARDS                                                             
+     ID,CRM Wing Statics                                                             
+     SOL,1                                                                           
+     CEND                                                                            
+0*** APP  DECLARATION CARD MISSING.  DISPLACEMENT IS SELECTED BY DEFAULT
+0*** TIME  CARD MISSING. MAXIMUM EXECUTION TIME IS SET TO 5 MINUTES BY DEFAULT
+1     CRM_Wing Full Model Static Analyses For Extraction                    /    95 INTEL LINUX NASTRAN    / APR 12, 18 / PAGE     5
+                                                                                                                                    
+0                                                                                                                                   
+0                                        C A S E    C O N T R O L   D E C K   E C H O                                               
+                 CARD                                                                                                               
+                 COUNT                                                                                                              
+                  1      TITLE = CRM_Wing Full Model Static Analyses For Extraction                      
+                  2      SPC=101                                                                         
+                  3      $Marker to place python generated subcases                                      
+                  4      $${                                                                             
+                  5      $$}                                                                             
+                  6                                                                                      
+                  7                                                                                      
+                  8      BEGIN BULK                                                                      
+
+
+                        (NO. OF UNSORTED BULK DATA CARDS READ =   203, INCLUDING   8 COMMENT CARDS)
+0*** USER INFORMATION MESSAGE 207, BULK DATA DECK IS NOT SORTED. NASTRAN WILL RE-ORDER THE INPUT DECK.
+1     CRM_Wing Full Model Static Analyses For Extraction                    /    95 INTEL LINUX NASTRAN    / APR 12, 18 / PAGE     6
+                                                                                                                                    
+0                                                                                                                                   
+0                                                 S O R T E D   B U L K    D A T A    E C H O                                       
+                     CARD                                                                                                           
+                     COUNT        ---1--- +++2+++ ---3--- +++4+++ ---5--- +++6+++ ---7--- +++8+++ ---9--- +++10+++                  
+                    1-        CORD2R  77              1.3514010.0     0.0     1.3514010.0     1.0     +C0N0004
+                    2-        +C0N00041.3514011.0     0.0                                                     
+                    3-        CQUAD4  4497    1417    31      250     696     253                             
+                    4-        CQUAD4  4498    1417    253     696     252     34                              
+                    5-        CQUAD4  4499    1417    250     32      251     696                             
+                    6-        CQUAD4  4500    1417    696     251     33      252                             
+                    7-        CQUAD4  4501    1417    32      254     697     251                             
+                    8-        CQUAD4  4502    1417    251     697     256     33                              
+                    9-        CQUAD4  4503    1417    254     35      255     697                             
+                   10-        CQUAD4  4504    1417    697     255     36      256                             
+                   11-        CQUAD4  4505    1417    35      257     698     255                             
+                   12-        CQUAD4  4506    1417    255     698     259     36                              
+                   13-        CQUAD4  4507    1417    257     37      258     698                             
+                   14-        CQUAD4  4508    1417    698     258     38      259                             
+                   15-        CQUAD4  4509    1417    37      260     699     258                             
+                   16-        CQUAD4  4510    1417    258     699     262     38                              
+                   17-        CQUAD4  4511    1417    260     39      261     699                             
+                   18-        CQUAD4  4512    1417    699     261     40      262                             
+                   19-        CQUAD4  4849    1418    33      252     784     505                             
+                   20-        CQUAD4  4850    1418    505     784     239     23                              
+                   21-        CQUAD4  4851    1418    252     34      504     784                             
+                   22-        CQUAD4  4852    1418    784     504     24      239                             
+                   23-        CQUAD4  4853    1418    21      506     785     237                             
+                   24-        CQUAD4  4854    1418    237     785     507     22                              
+                   25-        CQUAD4  4855    1418    506     31      250     785                             
+                   26-        CQUAD4  4856    1418    785     250     32      507                             
+                   27-        CQUAD4  4857    1418    36      256     786     508                             
+                   28-        CQUAD4  4858    1418    508     786     243     26                              
+                   29-        CQUAD4  4859    1418    256     33      505     786                             
+                   30-        CQUAD4  4860    1418    786     505     23      243                             
+                   31-        CQUAD4  4861    1418    35      254     787     509                             
+                   32-        CQUAD4  4862    1418    509     787     241     25                              
+                   33-        CQUAD4  4863    1418    254     32      507     787                             
+                   34-        CQUAD4  4864    1418    787     507     22      241                             
+                   35-        CQUAD4  4865    1418    38      259     788     510                             
+                   36-        CQUAD4  4866    1418    510     788     246     28                              
+                   37-        CQUAD4  4867    1418    259     36      508     788                             
+                   38-        CQUAD4  4868    1418    788     508     26      246                             
+                   39-        CQUAD4  4869    1418    37      257     789     511                             
+                   40-        CQUAD4  4870    1418    511     789     244     27                              
+                   41-        CQUAD4  4871    1418    257     35      509     789                             
+                   42-        CQUAD4  4872    1418    789     509     25      244                             
+                   43-        CQUAD4  4873    1418    40      262     790     512                             
+                   44-        CQUAD4  4874    1418    512     790     249     30                              
+                   45-        CQUAD4  4875    1418    262     38      510     790                             
+                   46-        CQUAD4  4876    1418    790     510     28      249                             
+                   47-        CQUAD4  4877    1418    39      260     791     513                             
+1     CRM_Wing Full Model Static Analyses For Extraction                    /    95 INTEL LINUX NASTRAN    / APR 12, 18 / PAGE     7
+                                                                                                                                    
+
+                                                                                                                                    
+
+                                                  S O R T E D   B U L K    D A T A    E C H O                                       
+                     CARD                                                                                                           
+                     COUNT        ---1--- +++2+++ ---3--- +++4+++ ---5--- +++6+++ ---7--- +++8+++ ---9--- +++10+++                  
+                   48-        CQUAD4  4878    1418    513     791     247     29                              
+                   49-        CQUAD4  4879    1418    260     37      511     791                             
+                   50-        CQUAD4  4880    1418    791     511     27      247                             
+                   51-        CQUAD4  5433    1422    21      240     930     506                             
+                   52-        CQUAD4  5434    1422    506     930     253     31                              
+                   53-        CQUAD4  5435    1422    240     24      504     930                             
+                   54-        CQUAD4  5436    1422    930     504     34      253                             
+                   55-        CQUAD4  5513    1426    25      509     950     242                             
+                   56-        CQUAD4  5514    1426    242     950     508     26                              
+                   57-        CQUAD4  5515    1426    509     35      255     950                             
+                   58-        CQUAD4  5516    1426    950     255     36      508                             
+                   59-        CQUAD4  5593    1430    29      248     970     513                             
+                   60-        CQUAD4  5594    1430    513     970     261     39                              
+                   61-        CQUAD4  5595    1430    248     30      512     970                             
+                   62-        CQUAD4  5596    1430    970     512     40      261                             
+                   63-        CROD    4057    1434    24      504                                             
+                   64-        CROD    4058    1434    504     34                                              
+                   65-        CROD    4059    1434    21      506                                             
+                   66-        CROD    4060    1434    506     31                                              
+                   67-        CROD    4137    1434    23      505                                             
+                   68-        CROD    4138    1434    505     33                                              
+                   69-        CROD    4139    1434    22      507                                             
+                   70-        CROD    4140    1434    507     32                                              
+                   71-        CROD    4217    1434    26      508                                             
+                   72-        CROD    4218    1434    508     36                                              
+                   73-        CROD    4219    1434    25      509                                             
+                   74-        CROD    4220    1434    509     35                                              
+                   75-        CROD    4297    1434    28      510                                             
+                   76-        CROD    4298    1434    510     38                                              
+                   77-        CROD    4299    1434    27      511                                             
+                   78-        CROD    4300    1434    511     37                                              
+                   79-        CROD    4377    1434    30      512                                             
+                   80-        CROD    4378    1434    512     40                                              
+                   81-        CROD    4379    1434    29      513                                             
+                   82-        CROD    4380    1434    513     39                                              
+                   83-        GRID    21      0       0.5     2.62    -0.1936577                              
+                   84-        GRID    22      0       2.2229142.62    -0.1936577                              
+                   85-        GRID    23      0       2.2229142.62    0.19365577                              
+                   86-        GRID    24      0       0.5     2.62    0.19365577                              
+                   87-        GRID    25      0       3.9458272.62    -0.1936577                              
+                   88-        GRID    26      0       3.9458272.62    0.19365577                              
+                   89-        GRID    27      0       5.6687412.62    -0.1936577                              
+                   90-        GRID    28      0       5.6687412.62    0.19365577                              
+                   91-        GRID    29      0       7.3916542.62    -0.1936577                              
+                   92-        GRID    30      0       7.3916542.62    0.19365577                              
+                   93-        GRID    31      0       0.5     3.93    -0.1725477                              
+                   94-        GRID    32      0       2.0887863.93    -0.1725477                              
+1     CRM_Wing Full Model Static Analyses For Extraction                    /    95 INTEL LINUX NASTRAN    / APR 12, 18 / PAGE     8
+                                                                                                                                    
+
+                                                                                                                                    
+
+                                                  S O R T E D   B U L K    D A T A    E C H O                                       
+                     CARD                                                                                                           
+                     COUNT        ---1--- +++2+++ ---3--- +++4+++ ---5--- +++6+++ ---7--- +++8+++ ---9--- +++10+++                  
+                   95-        GRID    33      0       2.0887863.93    0.17254277                              
+                   96-        GRID    34      0       0.5     3.93    0.17254277                              
+                   97-        GRID    35      0       3.6775723.93    -0.1725477                              
+                   98-        GRID    36      0       3.6775723.93    0.17254277                              
+                   99-        GRID    37      0       5.2663593.93    -0.1725477                              
+                  100-        GRID    38      0       5.2663593.93    0.17254277                              
+                  101-        GRID    39      0       6.8551453.93    -0.1725477                              
+                  102-        GRID    40      0       6.8551453.93    0.17254277                              
+                  103-        GRID    237     0       1.3614572.62    -0.1936577                              
+                  104-        GRID    238     0       2.2229142.62    -1.7-16 77                              
+                  105-        GRID    239     0       1.3614572.62    0.19365577                              
+                  106-        GRID    240     0       0.5     2.62    1.67-16 77                              
+                  107-        GRID    241     0       3.08437 2.62    -0.1936577                              
+                  108-        GRID    242     0       3.9458272.62    -1.7-16 77                              
+                  109-        GRID    243     0       3.08437 2.62    0.19365577                              
+                  110-        GRID    244     0       4.8072842.62    -0.1936577                              
+                  111-        GRID    245     0       5.6687412.62    -1.7-16 77                              
+                  112-        GRID    246     0       4.8072842.62    0.19365577                              
+                  113-        GRID    247     0       6.5301982.62    -0.1936577                              
+                  114-        GRID    248     0       7.3916542.62    -1.7-16 77                              
+                  115-        GRID    249     0       6.5301982.62    0.19365577                              
+                  116-        GRID    250     0       1.2943933.93    -0.1725477                              
+                  117-        GRID    251     0       2.0887863.93    -1.7-16 77                              
+                  118-        GRID    252     0       1.2943933.93    0.17254277                              
+                  119-        GRID    253     0       0.5     3.93    1.67-16 77                              
+                  120-        GRID    254     0       2.8831793.93    -0.1725477                              
+                  121-        GRID    255     0       3.6775723.93    -1.7-16 77                              
+                  122-        GRID    256     0       2.8831793.93    0.17254277                              
+                  123-        GRID    257     0       4.4719663.93    -0.1725477                              
+                  124-        GRID    258     0       5.2663593.93    -1.7-16 77                              
+                  125-        GRID    259     0       4.4719663.93    0.17254277                              
+                  126-        GRID    260     0       6.0607523.93    -0.1725477                              
+                  127-        GRID    261     0       6.8551453.93    -1.7-16 77                              
+                  128-        GRID    262     0       6.0607523.93    0.17254277                              
+                  129-        GRID    504     0       0.5     3.275   0.18309977                              
+                  130-        GRID    505     0       2.15585 3.275   0.18309977                              
+                  131-        GRID    506     0       0.5     3.275   -0.1830977                              
+                  132-        GRID    507     0       2.15585 3.275   -0.1830977                              
+                  133-        GRID    508     0       3.8117  3.275   0.18309977                              
+                  134-        GRID    509     0       3.8117  3.275   -0.1830977                              
+                  135-        GRID    510     0       5.46755 3.275   0.18309977                              
+                  136-        GRID    511     0       5.46755 3.275   -0.1830977                              
+                  137-        GRID    512     0       7.1234  3.275   0.18309977                              
+                  138-        GRID    513     0       7.1234  3.275   -0.1830977                              
+                  139-        GRID    692     0       1.3614572.62    0.0     77                              
+                  140-        GRID    693     0       3.08437 2.62    -6.9-18 77                              
+                  141-        GRID    694     0       4.8072842.62    0.0     77                              
+1     CRM_Wing Full Model Static Analyses For Extraction                    /    95 INTEL LINUX NASTRAN    / APR 12, 18 / PAGE     9
+                                                                                                                                    
+
+                                                                                                                                    
+
+                                                  S O R T E D   B U L K    D A T A    E C H O                                       
+                     CARD                                                                                                           
+                     COUNT        ---1--- +++2+++ ---3--- +++4+++ ---5--- +++6+++ ---7--- +++8+++ ---9--- +++10+++                  
+                  142-        GRID    695     0       6.5301982.62    0.0     77                              
+                  143-        GRID    696     0       1.2943933.93    -6.9-18 77                              
+                  144-        GRID    697     0       2.8831793.93    -6.9-18 77                              
+                  145-        GRID    698     0       4.4719663.93    0.0     77                              
+                  146-        GRID    699     0       6.0607523.93    -6.9-18 77                              
+                  147-        GRID    784     0       1.3279253.275   0.18309977                              
+                  148-        GRID    785     0       1.3279253.275   -0.1830977                              
+                  149-        GRID    786     0       2.9837753.275   0.18309977                              
+                  150-        GRID    787     0       2.9837753.275   -0.1830977                              
+                  151-        GRID    788     0       4.6396253.275   0.18309977                              
+                  152-        GRID    789     0       4.6396253.275   -0.1830977                              
+                  153-        GRID    790     0       6.2954753.275   0.18309977                              
+                  154-        GRID    791     0       6.2954753.275   -0.1830977                              
+                  155-        GRID    930     0       0.5     3.275   -6.9-18 77                              
+                  156-        GRID    950     0       3.8117  3.275   0.0     77                              
+                  157-        GRID    970     0       7.1234  3.275   -6.9-18 77                              
+                  158-        GRID    7000    77      0.0     0.0     0.0     77                              
+                  159-        MAT1    30      7.000+10        0.33    2700.0                                  
+                  160-        PARAM   AUTOSPC 1                                                               
+                  161-        PARAM   GRDPNT  7000                                                            
+                  162-        PROD    1434    30      0.000342                                                
+                  163-        PSHELL  1417    30      0.01    30              30                              
+                  164-        PSHELL  1418    30      0.01    30              30                              
+                  165-        PSHELL  1419    30      0.01    30              30                              
+                  166-        PSHELL  1420    30      0.01    30              30                              
+                  167-        PSHELL  1421    30      0.01    30              30                              
+                  168-        PSHELL  1422    30      0.01    30              30                              
+                  169-        PSHELL  1423    30      0.01    30              30                              
+                  170-        PSHELL  1424    30      0.01    30              30                              
+                  171-        PSHELL  1425    30      0.01    30              30                              
+                  172-        PSHELL  1426    30      0.01    30              30                              
+                  173-        PSHELL  1427    30      0.01    30              30                              
+                  174-        PSHELL  1428    30      0.01    30              30                              
+                  175-        PSHELL  1429    30      0.01    30              30                              
+                  176-        PSHELL  1430    30      0.01    30              30                              
+                  177-        PSHELL  1431    30      0.01    30              30                              
+                  178-        PSHELL  1432    30      0.01    30              30                              
+                  179-        PSHELL  1433    30      0.01    30              30                              
+                  180-        SPC1    101     123456  2       3       7000                            +C0N0001
+                  181-        +C0N00017       8       211     212     213     214                     +C0N0002
+                  182-        +C0N0002215     216     217     218     219     220     221     222     +C0N0003
+                  183-        +C0N0003223     684     685     686     687                                     
+                              ENDDATA
+0*** USER INFORMATION MESSAGE, THE FOLLOWING PROPERTY IDS ARE PRESENT BUT NOT USED -
+
+          1419     1420     1421     1423     1424     1425     1427     1428     1429     1431     1432     1433
+1     CRM_Wing Full Model Static Analyses For Extraction                    /    95 INTEL LINUX NASTRAN    / APR 12, 18 / PAGE    10
+                                                                                                                                    
+0                                                                                                                                   
+0*** USER INFORMATION MESSAGES FROM RESEQUENCING PROCESSOR - BANDIT     (CRI= 1,  MTH= 3,  MPC= 0,  DEP=-1,  PCH=-1)
+
+                               BEFORE RESEQUENCING - - -
+                                        BANDWIDTH           67
+                                        PROFILE           1875
+                                        MAX WAVEFRONT       50
+                                        AVG WAVEFRONT   27.174
+                                        RMS WAVEFRONT   30.779
+                                        RMS BANDWIDTH   34.393
+
+                               AFTER RESEQUENCING BY GIBBS-POOLE-STOCKMEYER (GPS) ALGORITHM - - -
+                                        BANDWIDTH           12
+                                        PROFILE            596
+                                        MAX WAVEFRONT       12
+                                        AVG WAVEFRONT    8.638
+                                        RMS WAVEFRONT    8.847
+                                        RMS BANDWIDTH    8.847
+
+
+                                                     *** BANDIT SUMMARY ***
+
+                                                                        BEFORE     AFTER
+                                        BANDWIDTH (B)                       67        12
+                                        PROFILE (P)                       1875       596
+                                        MAXIMUM WAVEFRONT (C-MAX)           50        12
+                                        AVERAGE WAVEFRONT (C-AVG)       27.174     8.638
+                                        RMS WAVEFRONT (C-RMS)           30.779     8.847
+                                        RMS BANDWITCH (B-RMS)           34.393     8.847
+                                        NUMBER OF GRID POINTS (N)                     76
+                                        NUMBER OF ELEMENTS (NON-RIGID)                80
+                                        NUMBER OF RIGID ELEMENTS PROCESSED*            0
+                                        NUMBER OF MPC  EQUATIONS PROCESSED*            0
+                                        NUMBER OF COMPONENTS                           1
+                                        MAXIMUM NODAL DEGREE                          11
+                                        MINIMUM NODAL DEGREE                           5
+                                        NUMBER OF UNIQUE EDGES                       248
+                                        MATRIX DENSITY, PERCENT                   11.867
+                                        NUMBER OF POINTS OF ZERO DEGREE                0
+                                        BANDIT OPEN CORE                        ********
+                                        CRITERION*                         RMS WAVEFRONT
+                                        METHOD USED*                                 GPS
+                                        NO. OF NON-ACTIVE GRID POINTS                  7
+                                        NO. OF SEQGP CARDS GENERATED                  19
+
+                               (* THESE DEFAULT OPTIONS CAN BE OVERRIDDEN BY THE NASTRAN CARD)
+1     CRM_Wing Full Model Static Analyses For Extraction                    /    95 INTEL LINUX NASTRAN    / APR 12, 18 / PAGE    11
+                                                                                                                                    
+0                                                                                                                                   
+
+
+                                   S Y S T E M  G E N E R A T E D  S E Q G P  C A R D S
+
+                         SEQGP         21       9      22      23      23      17      24       3
+                         SEQGP         25      37      26      32      27      53      28      50
+                         SEQGP         29      67      30      66      31       7      32      21
+                         SEQGP         33      19      34       5      35      35      36      33
+                         SEQGP         37      51      38      48      39      63      40      62
+                         SEQGP        237      16     238      70     239      10     240       2
+                         SEQGP        241      30     242      39     243      24     244      46
+                         SEQGP        245      71     246      42     247      60     248      69
+                         SEQGP        249      58     250      14     251      20     252      12
+                         SEQGP        253       6     254      28     255      34     256      26
+                         SEQGP        257      44     258      47     259      40     260      56
+                         SEQGP        261      61     262      55     504       4     505      18
+                         SEQGP        506       8     507      22     508      31     509      36
+                         SEQGP        510      49     511      52     512      64     513      65
+                         SEQGP        692      72     693      73     694      74     695      75
+                         SEQGP        696      13     697      27     698      43     699      54
+                         SEQGP        784      11     785      15     786      25     787      29
+                         SEQGP        788      41     789      45     790      57     791      59
+                         SEQGP        930       1     950      38     970      68    7000      76
+0         **NO ERRORS FOUND - EXECUTE NASTRAN PROGRAM**
+0*** USER WARNING MESSAGE 2015, EITHER NO ELEMENTS CONNECTED TO EXTERNAL GRID POINT      238
+     OR IT IS CONNECTED TO A RIGID ELEMENT OR A GENERAL ELEMENT.
+0*** USER WARNING MESSAGE 2015, EITHER NO ELEMENTS CONNECTED TO EXTERNAL GRID POINT      245
+     OR IT IS CONNECTED TO A RIGID ELEMENT OR A GENERAL ELEMENT.
+0*** USER WARNING MESSAGE 2015, EITHER NO ELEMENTS CONNECTED TO EXTERNAL GRID POINT      692
+     OR IT IS CONNECTED TO A RIGID ELEMENT OR A GENERAL ELEMENT.
+
+0*** USER WARNING MESSAGE 2015, EXTERNAL GRID PT.      693 NOT CONNECTED
+0*** USER WARNING MESSAGE 2015, EXTERNAL GRID PT.      694 NOT CONNECTED
+0*** USER WARNING MESSAGE 2015, EXTERNAL GRID PT.      695 NOT CONNECTED
+0*** USER WARNING MESSAGE 2015, EXTERNAL GRID PT.     7000 NOT CONNECTED
+0*** USER INFORMATION MESSAGE 238, TURN DIAG 38 ON FOR ADDITIONAL ELEMENT PROCESSING INFORMATION
+
+0*** USER INFORMATION MESSAGE 3113,
+     EMG MODULE PROCESSING DOUBLE PRECISION QUAD4    ELEMENTS (ELEMENT TYPE  64) STARTING WITH ID     4497
+0*** USER INFORMATION MESSAGE 3113,
+     EMG MODULE PROCESSING DOUBLE PRECISION ROD      ELEMENTS (ELEMENT TYPE   1) STARTING WITH ID     4057
+1     CRM_Wing Full Model Static Analyses For Extraction                    /    95 INTEL LINUX NASTRAN    / APR 12, 18 / PAGE    12
+                                                                                                                                    
+0                                                                                                                                   
+ 
+ 
+                           O U T P U T   F R O M   G R I D   P O I N T   W E I G H T   G E N E R A T O R
+0                                                     REFERENCE POINT =     7000
+ 
+ 
+                                     MO - RIGID BODY MASS MATRIX IN BASIC COORDINATE SYSTEM
+                ***                                                                                             ***
+                *  5.80449435D+02  7.88875665D-16  8.79659598D-18  7.39019674D-17  1.69530525D-03 -1.93510658D+03 *
+                *  5.63215924D-16  5.80449435D+02  2.01046658D-16 -1.69530525D-03 -1.22752070D-15  1.42535942D+03 *
+                *  1.04921442D-17  2.03673307D-16  5.80449435D+02  1.93510658D+03 -1.42535942D+03  1.01522210D-15 *
+                *  3.14794067D-17 -1.69530525D-03  1.93510658D+03  6.60421649D+03 -4.72383526D+03 -4.20352141D-03 *
+                *  1.69530525D-03 -1.09811364D-15 -1.42535942D+03 -4.72383526D+03  5.86431705D+03 -5.45878020D-03 *
+                * -1.93510658D+03  1.42535942D+03  1.20503086D-15 -4.20352141D-03 -5.45878020D-03  1.24330618D+04 *
+                ***                                                                                             ***
+                                        S - TRANSFORMATION MATRIX FOR SCALAR MASS PARTITION
+                                        ***                                             ***
+                                        *  1.00000000D+00  0.00000000D+00  0.00000000D+00 *
+                                        *  0.00000000D+00  1.00000000D+00  0.00000000D+00 *
+                                        *  0.00000000D+00  0.00000000D+00  1.00000000D+00 *
+                                        ***                                             ***
+                         DIRECTION
+                    MASS AXIS SYSTEM (S)       MASS                 X-C.G.           Y-C.G.           Z-C.G.
+                            X            5.804494351D+02      1.273185276D-19  3.333807326D+00  2.920676881D-06
+                            Y            5.804494351D+02      2.455613417D+00 -2.114776292D-18  2.920676881D-06
+                            Z            5.804494351D+02      2.455613417D+00  3.333807326D+00  1.749027634D-18
+
+                                                 I(S) - INERTIAS RELATIVE TO C.G. 
+                                      ***                                                 ***
+                                      *  1.529440004D+02 -2.803842242D+01  4.050710585D-05  *
+                                      * -2.803842242D+01  2.364185334D+03 -1.930408520D-04  *
+                                      *  4.050710585D-05 -1.930408520D-04  2.481657552D+03  *
+                                      ***                                                 ***
+                                                      I(Q) - PRINCIPAL INERTIAS
+                                      ***                                                 ***
+                                      *  2.364540802D+03                                    *
+                                      *                   1.525885318D+02                   *
+                                      *                                    2.481657552D+03  *
+                                      ***                                                 ***
+                                            Q - TRANSFORMATION MATRIX - I(Q) = QT*I(S)*Q
+                                      ***                                                 ***
+                                      *  1.267689000D-02  9.999196450D-01  0.000000000D+00  *
+                                      * -9.999196450D-01  1.267689000D-02  0.000000000D+00  *
+                                      *  0.000000000D+00  0.000000000D+00  1.000000000D+00  *
+                                      ***                                                 ***
+1     CRM_Wing Full Model Static Analyses For Extraction                    /    95 INTEL LINUX NASTRAN    / APR 12, 18 / PAGE    13
+                                                                                                                                    
+
+                                                                                                                                    
+
+
+
+
+0*** USER FATAL MESSAGE 2051, UNDEFINED GRID POINT        2 IN SINGLE-POINT CONSTRAINT SET      101
+0*** USER FATAL MESSAGE 2051, UNDEFINED GRID POINT        3 IN SINGLE-POINT CONSTRAINT SET      101
+0*** USER FATAL MESSAGE 2051, UNDEFINED GRID POINT        7 IN SINGLE-POINT CONSTRAINT SET      101
+0*** USER FATAL MESSAGE 2051, UNDEFINED GRID POINT        8 IN SINGLE-POINT CONSTRAINT SET      101
+0*** USER FATAL MESSAGE 2051, UNDEFINED GRID POINT      211 IN SINGLE-POINT CONSTRAINT SET      101
+0*** USER FATAL MESSAGE 2051, UNDEFINED GRID POINT      212 IN SINGLE-POINT CONSTRAINT SET      101
+0*** USER FATAL MESSAGE 2051, UNDEFINED GRID POINT      213 IN SINGLE-POINT CONSTRAINT SET      101
+0*** USER FATAL MESSAGE 2051, UNDEFINED GRID POINT      214 IN SINGLE-POINT CONSTRAINT SET      101
+0*** USER FATAL MESSAGE 2051, UNDEFINED GRID POINT      215 IN SINGLE-POINT CONSTRAINT SET      101
+0*** USER FATAL MESSAGE 2051, UNDEFINED GRID POINT      216 IN SINGLE-POINT CONSTRAINT SET      101
+0*** USER FATAL MESSAGE 2051, UNDEFINED GRID POINT      217 IN SINGLE-POINT CONSTRAINT SET      101
+0*** USER FATAL MESSAGE 2051, UNDEFINED GRID POINT      218 IN SINGLE-POINT CONSTRAINT SET      101
+0*** USER FATAL MESSAGE 2051, UNDEFINED GRID POINT      219 IN SINGLE-POINT CONSTRAINT SET      101
+0*** USER FATAL MESSAGE 2051, UNDEFINED GRID POINT      220 IN SINGLE-POINT CONSTRAINT SET      101
+0*** USER FATAL MESSAGE 2051, UNDEFINED GRID POINT      221 IN SINGLE-POINT CONSTRAINT SET      101
+0*** USER FATAL MESSAGE 2051, UNDEFINED GRID POINT      222 IN SINGLE-POINT CONSTRAINT SET      101
+0*** USER FATAL MESSAGE 2051, UNDEFINED GRID POINT      223 IN SINGLE-POINT CONSTRAINT SET      101
+0*** USER FATAL MESSAGE 2051, UNDEFINED GRID POINT      684 IN SINGLE-POINT CONSTRAINT SET      101
+0*** USER FATAL MESSAGE 2051, UNDEFINED GRID POINT      685 IN SINGLE-POINT CONSTRAINT SET      101
+0*** USER FATAL MESSAGE 2051, UNDEFINED GRID POINT      686 IN SINGLE-POINT CONSTRAINT SET      101
+0*** USER FATAL MESSAGE 2051, UNDEFINED GRID POINT      687 IN SINGLE-POINT CONSTRAINT SET      101
+0*** SYSTEM FATAL    MESSAGE 3037
+0JOB TERMINATED IN SUBROUTINE GP4     
+  ERRTRC CALLED
+  NAME=WRTMSG  
+  IVAL=         100
+
+
+
+
+                                        * * * END OF JOB * * *
+1
+ JOB TITLE =  CRM_Wing Full Model Static Analyses For Extraction                 
+ DATE:  4/12/18
+ END TIME:  9:29: 3
+ TOTAL WALL CLOCK TIME      0 SEC.
+ 

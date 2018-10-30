@@ -1,0 +1,130 @@
+1*****************************************************************************
+ *                                                                           *
+ *       DATE  4/12/18               LOG OF 95 INTEL LINUX NASTRAN JOB       *
+ *                                                                           *
+ *****************************************************************************
+
+   WALL               TOTAL       INCREMENTAL      MODULE              MODULE/
+   CLOCK               CPU            CPU            CPU             SUBROUTINE
+   TIME              SECONDS        SECONDS        SECONDS             STATUS
+
+ ------------------------------------------------------------------------------
+
+ 09:29:00.686        -0.016          0.000                    SEM1  BEGN
+ 09:29:00.702        -0.016          0.000                    GNFI
+ 09:29:00.702        -0.016          0.000                    TTIO
+ 09:29:00.702        -0.016          0.000                    TTLP
+ 09:29:00.702        -0.016          0.000                    XCSA
+ ID,CRM Wing Statics                                                     
+ 09:29:00.702        -0.016          0.000                    IFP1
+ TITLE = CRM_Wing Full Model Static Analyses For Extraction              
+ 09:29:00.702        -0.016          0.000                    XSOR
+ 09:29:00.702        -0.016          0.000                    IFP   BEGN
+ 09:29:00.702        -0.016          0.000                    IFP   END 
+ 09:29:00.702        -0.016          0.000                    XGPI
+ 09:29:00.717        -0.016          0.000                    BAND  IT  BEGN
+ 09:29:01.372         0.094          0.109                    BAND  IT  END 
+ 09:29:01.372         0.094          0.000                    SEM1  END 
+ 09:29:01.372         0.094          0.000                       4  SETVAL    BEGN
+ 09:29:01.372         0.094          0.000          0.000        4  SETVAL    END 
+ 09:29:01.372         0.094          0.000                       5  PARAM     BEGN
+ 09:29:01.372         0.094          0.000          0.000        5  PARAM     END 
+ 09:29:01.372         0.094          0.000                    XSFA      BEGN
+ 09:29:01.372         0.094          0.000                    XSFA      END 
+ 09:29:01.372         0.094          0.000                      11  GP1       BEGN
+ 09:29:01.653         0.094          0.000          0.000       11  GP1       END 
+ 09:29:01.653         0.094          0.000                      12  ANISOP    BEGN
+ 09:29:01.653         0.094          0.000          0.000       12  ANISOP    END 
+ 09:29:01.653         0.094          0.000                      13  EQUIV     BEGN
+ 09:29:01.653         0.094          0.000          0.000       13  EQUIV     END 
+ 09:29:01.653         0.094          0.000                      14  PLTTRAN   BEGN
+ 09:29:01.653         0.094          0.000          0.000       14  PLTTRAN   END 
+ 09:29:01.653         0.094          0.000                      15  GP2       BEGN
+ 09:29:01.653         0.094          0.000          0.000       15  GP2       END 
+ 09:29:01.653         0.094          0.000                      16  PARAML    BEGN
+ 09:29:01.653         0.094          0.000          0.000       16  PARAML    END 
+ 09:29:01.653         0.094          0.000                      17  PURGE     BEGN
+ 09:29:01.653         0.094          0.000          0.000       17  PURGE     END 
+ 09:29:01.653         0.094          0.000                      18  COND      BEGN
+ 09:29:01.653         0.094          0.000          0.000       18  COND      END 
+ 09:29:01.653         0.094          0.000                      27  GP3       BEGN
+ 09:29:01.653         0.094          0.000          0.000       27  GP3       END 
+ 09:29:01.653         0.094          0.000                      28  PARAM     BEGN
+ 09:29:01.653         0.094          0.000          0.000       28  PARAM     END 
+ 09:29:01.653         0.094          0.000                      29  TA1       BEGN
+ 09:29:01.653         0.094          0.000          0.000       29  TA1       END 
+ 09:29:01.653         0.094          0.000                      30  EQUIV     BEGN
+ 09:29:01.653         0.094          0.000          0.000       30  EQUIV     END 
+ 09:29:01.653         0.094          0.000                      31  PARAM     BEGN
+ 09:29:01.653         0.094          0.000          0.000       31  PARAM     END 
+ 09:29:01.653         0.094          0.000                      32  COND      BEGN
+ 09:29:01.653         0.094          0.000          0.000       32  COND      END 
+ 09:29:01.653         0.094          0.000                      33  PURGE     BEGN
+ 09:29:01.653         0.094          0.000          0.000       33  PURGE     END 
+ 09:29:01.653         0.094          0.000                      34  OPTPR1    BEGN
+ 09:29:01.653         0.094          0.000          0.000       34  OPTPR1    END 
+ 09:29:01.653         0.094          0.000                      36  COND      BEGN
+ 09:29:01.653         0.094          0.000          0.000       36  COND      END 
+ 09:29:01.653         0.094          0.000                      37  PARAM     BEGN
+ 09:29:01.653         0.094          0.000          0.000       37  PARAM     END 
+ 09:29:01.653         0.094          0.000                      38  EQUIV     BEGN
+ 09:29:01.653         0.094          0.000          0.000       38  EQUIV     END 
+ 09:29:01.653         0.094          0.000                      39  EMG       BEGN
+ 09:29:01.965         0.094          0.000          0.000       39  EMG       END 
+ 09:29:01.965         0.094          0.000                      40  COND      BEGN
+ 09:29:01.965         0.094          0.000          0.000       40  COND      END 
+ 09:29:01.965         0.094          0.000                      41  EMA       BEGN
+ 09:29:01.965         0.094          0.000          0.000       41  EMA       END 
+ 09:29:01.965         0.094          0.000                      43  PURGE     BEGN
+ 09:29:01.965         0.094          0.000          0.000       43  PURGE     END 
+ 09:29:01.965         0.094          0.000                      44  COND      BEGN
+ 09:29:01.965         0.094          0.000          0.000       44  COND      END 
+ 09:29:01.965         0.094          0.000                      45  EMA       BEGN
+ 09:29:01.965         0.094          0.000          0.000       45  EMA       END 
+ 09:29:01.965         0.094          0.000                      46  PURGE     BEGN
+ 09:29:01.965         0.094          0.000          0.000       46  PURGE     END 
+ 09:29:01.965         0.094          0.000                      48  COND      BEGN
+ 09:29:01.965         0.094          0.000          0.000       48  COND      END 
+ 09:29:01.965         0.094          0.000                      49  COND      BEGN
+ 09:29:01.965         0.094          0.000          0.000       49  COND      END 
+ 09:29:01.965         0.094          0.000                      50  GPWG      BEGN
+ 09:29:01.965         0.094          0.000                    TRAN  POSE
+ 09:29:01.965         0.094          0.000                    TRAN  POSE
+ 09:29:01.965         0.094          0.000                    MMA       BEGN
+ 09:29:01.965         0.094          0.000                    MMA3  1   BEGN
+ 09:29:01.965         0.094          0.000                    MMA3  1   END 
+   METHOD USED = 31NT  ACTUAL NUMBER OF PASSES =   1
+ 09:29:01.965         0.094          0.000                    MMA       END 
+ 09:29:01.965         0.094          0.000                    MMA       BEGN
+ 09:29:01.965         0.094          0.000                    MMA3  2   BEGN
+ 09:29:01.965         0.094          0.000                    MMA3  2   END 
+   METHOD USED = 32T   ACTUAL NUMBER OF PASSES =   1
+ 09:29:01.965         0.094          0.000                    MMA       END 
+ 09:29:01.965         0.094          0.000          0.000       50  GPWG      END 
+ 09:29:01.965         0.094          0.000                      51  OFP       BEGN
+ 09:29:01.965         0.094          0.000          0.000       51  OFP       END 
+ 09:29:01.965         0.094          0.000                      53  EQUIV     BEGN
+ 09:29:01.965         0.094          0.000          0.000       53  EQUIV     END 
+ 09:29:01.965         0.094          0.000                      54  COND      BEGN
+ 09:29:01.965         0.094          0.000          0.000       54  COND      END 
+ 09:29:01.965         0.094          0.000                    XSFA      BEGN
+ 09:29:01.965         0.094          0.000                    XSFA      END 
+ 09:29:01.965         0.094          0.000                      57  GPSTGEN   BEGN
+ 09:29:01.965         0.094          0.000          0.000       57  GPSTGEN   END 
+ 09:29:01.965         0.094          0.000                      58  PARAM     BEGN
+ 09:29:01.965         0.094          0.000          0.000       58  PARAM     END 
+ 09:29:01.965         0.094          0.000                      60  GP4       BEGN
+1     STATISTICS ON IN-MEMORY DATA BASE AND DISK I/O USAGE
+
+         LENGTH (IN WORDS) OF OPEN CORE ALLOCATED                 160000000
+         LENGTH (IN WORDS) OF IN-MEMORY DATA BASE ALLOCATED       240000000
+         NUMBER OF BLOCKS USED IN THE IN-MEMORY DATA BASE               181
+         NUMBER OF BLOCKS ALLOCATED FOR THE IN-MEMORY DATA           233236
+         PERCENTAGE OF IN-MEMORY DATA USED                                0%
+         TOTAL BLOCKS WRITTEN TO DISK                              60000000
+         BLOCK SIZE (IN WORDS)                                         1024
+         NUMBER OF OPENS TO DISK FILES                                    6
+         NUMBER OF CLOSES TO DISK FILES                                   6
+         NUMBER OF WRITES TO DISK FILES                                   8
+         NUMBER OF READS FROM DISK FILES                                  9
+         MEMORY (IN WORDS) NOT USED BY IN-MEM. DATA BASE          240745815
