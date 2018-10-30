@@ -1,0 +1,19 @@
+[0] Config.pm:354> INFO - This is Biber 2.6
+[0] Config.pm:357> INFO - Logfile is 'main.blg'
+[37] biber-darwin:302> INFO - === Thu Oct 11, 2018, 17:02:17
+[58] Biber.pm:359> INFO - Reading 'main.bcf'
+[146] Biber.pm:823> INFO - Found 30 citekeys in bib section 0
+[158] Biber.pm:3658> INFO - Processing section 0
+[172] Biber.pm:3828> INFO - Looking for bibtex format file 'biblio.bib' for section 0
+[175] bibtex.pm:1425> INFO - Decoding LaTeX character macros into UTF-8
+[179] bibtex.pm:1282> INFO - Found BibTeX data source 'biblio.bib'
+[181] Utils.pm:164> WARN - Duplicate entry key: 'mart2' in file 'biblio.bib', skipping ...
+[221] Utils.pm:164> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[221] Utils.pm:164> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
+[253] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[253] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[254] Biber.pm:3487> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'it-IT'
+[254] Biber.pm:3493> INFO - No sort tailoring available for locale 'it-IT'
+[280] bbl.pm:597> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[284] bbl.pm:701> INFO - Output to main.bbl
+[284] Biber.pm:109> INFO - WARNINGS: 3

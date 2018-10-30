@@ -1,0 +1,60 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {italian}
+\defcounter {refsection}{0}\relax 
+\select@language {italian}
+\defcounter {refsection}{0}\relax 
+\select@language {italian}
+\select@language {english}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces MDO scheme\relax }}{3}{figure.caption.5}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Collar Triangle\relax }}{8}{figure.caption.11}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Typical aeroelastic section\relax }}{9}{figure.caption.13}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces \textit {XDSM} Diagram of the multidisciplinary analysis and optimization process\relax }}{13}{figure.caption.14}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Example of .igs file created from the geometry component\relax }}{15}{figure.caption.15}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Example of structural mesh (red) and aerodynamic mesh (blue)\relax }}{16}{figure.caption.16}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Example of nastran template file and input file generated from it\relax }}{18}{figure.caption.17}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Different thickness sections in the CRM FEM model\relax }}{22}{figure.caption.20}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces XDSM of the MDA Driver\relax }}{24}{figure.caption.23}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Results of the MDA loop refered to the wingtip vertical displacement \relax }}{25}{figure.caption.24}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces XDSM after constraints aggregation\relax }}{29}{figure.caption.25}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Effects of the aggregation parameter $P$ on the KS function\relax }}{33}{figure.caption.29}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Effects of the number of constraint on the relative error of the aggregation function\relax }}{35}{figure.caption.30}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Effects of the aggregation parameter $P$ on the relative error\relax }}{35}{figure.caption.31}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Zoom-out of effects of the aggregation parameter $P$ on the relative error\relax }}{36}{figure.caption.32}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Flow chart of the aggregation component\relax }}{37}{figure.caption.33}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces openMDAO structure of the aggregation component\relax }}{37}{figure.caption.34}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Different modeling levels \relax }}{40}{figure.caption.35}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Flow chart of the reduced model code \relax }}{40}{figure.caption.36}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Schematization of the creation of the stick model \relax }}{42}{figure.caption.37}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Detailed model subdivisions and unitary loads for the extraction\relax }}{42}{figure.caption.39}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces NASTRAN grid point weight generator output file\relax }}{45}{figure.caption.41}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Schematization of the creation of the stick model and importing of the properties\relax }}{45}{figure.caption.42}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Optional caption for list of figures}}{47}{figure.caption.43}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces MAC colour matrix for the first ten modal shapes\relax }}{49}{figure.caption.45}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Bar plot of the error between the natural frequencies of the full and stick model\relax }}{50}{figure.caption.47}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces FEM model after new mass distribution implementation\relax }}{52}{figure.caption.49}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Improvements on the MAC matrix after correction\relax }}{53}{figure.caption.50}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Improvements on the bar frequencies plot after correction\relax }}{53}{figure.caption.51}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Initial FEM model for the Goland wing\relax }}{57}{figure.caption.54}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Initial aerodynamic mesh for the Goland wing\relax }}{58}{figure.caption.55}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Plan view of the CRM wing geometry\relax }}{59}{figure.caption.56}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces FEM model of CRM wing\relax }}{60}{figure.caption.57}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces CRM-65 airfoil\relax }}{60}{figure.caption.58}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Aerodynamic mesh of the CRM wing\relax }}{61}{figure.caption.59}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Aerodynamic mesh of the simple model CRM wing\relax }}{62}{figure.caption.60}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Aerodynamic mesh of the simple model CRM wing\relax }}{62}{figure.caption.61}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Thickness variation in a COBYLA optimization\relax }}{64}{figure.caption.63}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Thickness variation after design limits correction\relax }}{65}{figure.caption.64}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Structure of the recorder output file\relax }}{69}{figure.caption.65}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Result of the optimization Case 1\relax }}{71}{figure.caption.69}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Result of the optimization Case 2\relax }}{73}{figure.caption.73}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Result of the optimization Case 3\relax }}{76}{figure.caption.77}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Result of the optimization Case 4\relax }}{77}{figure.caption.81}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Result of the optimization Case 5\relax }}{79}{figure.caption.86}
+\addvspace {10\p@ }

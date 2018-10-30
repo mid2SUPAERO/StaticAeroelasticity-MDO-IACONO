@@ -1,0 +1,51 @@
+% per inserire uno spazio "fantasma" nella definizione di un'abbreviazione
+\usepackage{xspace}
+
+% per inserire un DOI senza problemi coi caratteri "strani" ivi presenti
+\usepackage{doi}
+\renewcommand{\doitext}{DOI }% originally was "doi:"
+
+% per inserire correttamente le unità di misura SI (incluse quelle binarie)
+\usepackage[binary-units]{siunitx}
+% se si desidera usare / invece che la potenza -1 per indicare "al secondo"
+\sisetup{per-mode=symbol}
+
+% per inserire codice di programmazione complesso
+\usepackage{listings}% per inserire codice di programmazione complesso
+\lstset{
+basicstyle=\ttfamily,
+columns=fullflexible,
+xleftmargin=3ex,
+breaklines,
+breakatwhitespace,
+escapechar=`
+}
+
+% modify some page parameters
+\setlength{\parskip}{\medskipamount}
+\advance\voffset -5mm
+\advance\textheight 30mm
+
+% riga orizzontale
+\newcommand{\HRule}{\rule{\linewidth}{0.2mm}}
+% esempio di creazione di semplici abbreviazioni
+\newcommand{\ltx}{\LaTeX\xspace}
+\newcommand{\txw}{TeXworks\xspace}
+\newcommand{\mik}{MikTex\xspace}
+\newcommand{\html}{HTML\xspace}
+
+% esempio di creazione di un'abbreviazione con un parametro (il cui uso è indicato da #1)
+\newcommand{\cmd}[1]{\texttt{#1}\xspace}
+% per citare un RFC, es. \rfc{822}
+\newcommand{\rfc}[1]{RFC-#1\xspace}
+% per citare un file (es. \file{autoexec.bat}) o una URI fittizia (es. \file{http://www.lioy.it/})
+% per le URI vere usare \url o \href
+\newcommand{\file}[1]{\texttt{#1}\xspace}
+% per inserire codice di esempio in-line
+\newcommand{\code}[1]{\lstinline|#1|}
+% importante per i pathname Windows perché non si può usare \ essendo un carattere riservato di Latex
+\newcommand{\bs}{\textbackslash}
+% definizione di un termine: formattazione ed inserimento nell'indice
+\newcommand{\tdef}[1]{\textit{#1}\index{#1}}
+% meta-termine, usato tipicamente nelle definizioni dei tag
+\newcommand{\meta}[1]{\textit{#1}}

@@ -1,0 +1,841 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nty/global/}
+    \entry{sito}{url}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \verb{url}
+      \verb http://www.cfd4aircraft.com/4ecerta_testcases_goland.php
+      \endverb
+    \endentry
+    \entry{nasa2}{url}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \verb{url}
+      \verb https://commonresearchmodel.larc.nasa.gov/experimental-approach/model-description/
+      \endverb
+    \endentry
+    \entry{air}{url}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \verb{url}
+      \verb https://commonresearchmodel.larc.nasa.gov/crm-65-airfoil-sections/
+      \endverb
+    \endentry
+    \entry{ite}{article}{}
+      \name{author}{3}{}{%
+        {{hash=41b447e510e5ff586f6e332a1aafa043}{%
+           family={A.\bibnamedelimi Elsayed},
+           familyi={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+           given={Mostafa\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=71240e4839d8b06f5b53fd37668cdaf6}{%
+           family={Sedaghati},
+           familyi={S\bibinitperiod},
+           given={Ramin},
+           giveni={R\bibinitperiod}}}%
+        {{hash=8ca15a8aa0e302845a4f5f9a3a951214}{%
+           family={Abdo},
+           familyi={A\bibinitperiod},
+           given={Mohammed},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {American Institute of Aeronautics}%
+        {Astronautics}%
+      }
+      \strng{namehash}{a2aff8a47ae2eacfd21cd88e53e98942}
+      \strng{fullhash}{a2aff8a47ae2eacfd21cd88e53e98942}
+      \strng{authornamehash}{a2aff8a47ae2eacfd21cd88e53e98942}
+      \strng{authorfullhash}{a2aff8a47ae2eacfd21cd88e53e98942}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{AIAA Journal}
+      \field{number}{9}
+      \field{title}{Accurate Stick Model Development for Static Analysis of Complex Aircraft Wing-Box Structures}
+      \field{volume}{47}
+      \field{year}{2009}
+    \endentry
+    \entry{mart2}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2097ce7f02e27cf96a0efd4b6eb79448}{%
+           family={A.},
+           familyi={A\bibinitperiod},
+           given={Martins\bibnamedelimb Joaquim\bibnamedelimb R.\bibnamedelimi R.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{2097ce7f02e27cf96a0efd4b6eb79448}
+      \strng{fullhash}{2097ce7f02e27cf96a0efd4b6eb79448}
+      \strng{authornamehash}{2097ce7f02e27cf96a0efd4b6eb79448}
+      \strng{authorfullhash}{2097ce7f02e27cf96a0efd4b6eb79448}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{A COUPLED-ADJOINT METHOD FOR HIGH-FIDELITY AERO-STRUCTURAL OPTIMIZATION}}
+      \field{year}{2002}
+      \field{dateera}{ce}
+    \endentry
+    \entry{mart}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2097ce7f02e27cf96a0efd4b6eb79448}{%
+           family={A.},
+           familyi={A\bibinitperiod},
+           given={Martins\bibnamedelimb Joaquim\bibnamedelimb R.\bibnamedelimi R.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=5943d8d2f3fd989d155b9fe6919e6ca9}{%
+           family={B.},
+           familyi={B\bibinitperiod},
+           given={Lambe\bibnamedelima Andrew},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{74b090f8e6b5a1fb2d49902e714de3d1}
+      \strng{fullhash}{74b090f8e6b5a1fb2d49902e714de3d1}
+      \strng{authornamehash}{74b090f8e6b5a1fb2d49902e714de3d1}
+      \strng{authorfullhash}{74b090f8e6b5a1fb2d49902e714de3d1}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{AIAA JOURNAL}
+      \field{title}{{Multidisciplinary Design Optimization: A Survey of Architectures}}
+      \field{year}{2013}
+      \field{dateera}{ce}
+    \endentry
+    \entry{salt}{book}{}
+      \name{author}{1}{}{%
+        {{hash=84f9b5bf29c65c364a739a53478a2fc6}{%
+           family={A.},
+           familyi={A\bibinitperiod},
+           given={Saltelli},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{84f9b5bf29c65c364a739a53478a2fc6}
+      \strng{fullhash}{84f9b5bf29c65c364a739a53478a2fc6}
+      \strng{authornamehash}{84f9b5bf29c65c364a739a53478a2fc6}
+      \strng{authorfullhash}{84f9b5bf29c65c364a739a53478a2fc6}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Sensitivity Analysis for Importance Assessment, Risk Analysis,}}
+      \field{year}{2002}
+      \field{dateera}{ce}
+    \endentry
+    \entry{mac2}{article}{}
+      \name{author}{2}{}{%
+        {{hash=15bcb4aca8fed98b8a7d3df3cb1b7f9a}{%
+           family={Allemang},
+           familyi={A\bibinitperiod},
+           given={R.J.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b34781d805678cfe17017ae2af9a8943}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={D.L.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{fecc25348d1bc1e9e8bce7f2c14f8b7d}
+      \strng{fullhash}{fecc25348d1bc1e9e8bce7f2c14f8b7d}
+      \strng{authornamehash}{fecc25348d1bc1e9e8bce7f2c14f8b7d}
+      \strng{authorfullhash}{fecc25348d1bc1e9e8bce7f2c14f8b7d}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of The 1st International Modal Analysis Conference}
+      \field{title}{A correlation coefficient for modal vector analysis}
+      \field{year}{1972}
+    \endentry
+    \entry{mac}{article}{}
+      \name{author}{3}{}{%
+        {{hash=cca94369da27329775f85a1c3a063be5}{%
+           family={Brigante},
+           familyi={B\bibinitperiod},
+           given={Daniele},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8ef331555f988f86b1c8350eb2c40a07}{%
+           family={Rainieri},
+           familyi={R\bibinitperiod},
+           given={Carlo},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b637b9b9f6ac037e4a41f941372871aa}{%
+           family={Fabbrocino},
+           familyi={F\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8fb00e0d66c0d5f9adea952b67ad63c9}
+      \strng{fullhash}{8fb00e0d66c0d5f9adea952b67ad63c9}
+      \strng{authornamehash}{8fb00e0d66c0d5f9adea952b67ad63c9}
+      \strng{authorfullhash}{8fb00e0d66c0d5f9adea952b67ad63c9}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Procedia Engineering}
+      \field{title}{The role of the Modal Assurance Criterion in the interpretation and validation of models for seismic analysis of architectural complexes}
+      \field{volume}{199}
+      \field{year}{2017}
+      \field{pages}{3404\bibrangedash 3409}
+      \range{pages}{6}
+    \endentry
+    \entry{don}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2f56662ae1845a596d5cee7d884c4e5e}{%
+           family={Done},
+           familyi={D\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{2f56662ae1845a596d5cee7d884c4e5e}
+      \strng{fullhash}{2f56662ae1845a596d5cee7d884c4e5e}
+      \strng{authornamehash}{2f56662ae1845a596d5cee7d884c4e5e}
+      \strng{authorfullhash}{2f56662ae1845a596d5cee7d884c4e5e}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Aeronautical Journal (1968)}
+      \field{title}{Introduction to Aircraft Aeroelasticity and Loads J. R. Wright and J. E. Cooper John Wiley and Sons, The Atrium, Southern Gate, Chichester, West Sussex}
+      \field{year}{2008}
+    \endentry
+    \entry{qui}{article}{}
+      \name{author}{1}{}{%
+        {{hash=893bc8a537bb42f2536e8345446c4ce3}{%
+           family={Friswell},
+           familyi={F\bibinitperiod},
+           given={M.I.\bibnamedelimi et\bibnamedelima al.},
+           giveni={M\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
+      }
+      \strng{namehash}{893bc8a537bb42f2536e8345446c4ce3}
+      \strng{fullhash}{893bc8a537bb42f2536e8345446c4ce3}
+      \strng{authornamehash}{893bc8a537bb42f2536e8345446c4ce3}
+      \strng{authorfullhash}{893bc8a537bb42f2536e8345446c4ce3}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Sound and Vibration}
+      \field{title}{The convergence of the iterated IRS methods}
+      \field{year}{1998}
+    \endentry
+    \entry{gola}{article}{}
+      \name{author}{1}{}{%
+        {{hash=06a0ac9c25f0b9817dd410f0afb0846c}{%
+           family={Goland},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{06a0ac9c25f0b9817dd410f0afb0846c}
+      \strng{fullhash}{06a0ac9c25f0b9817dd410f0afb0846c}
+      \strng{authornamehash}{06a0ac9c25f0b9817dd410f0afb0846c}
+      \strng{authorfullhash}{06a0ac9c25f0b9817dd410f0afb0846c}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Mechanics}
+      \field{title}{The Flutter of a Uniform Cantilever Wing}
+      \field{volume}{12}
+      \field{year}{1945}
+      \field{pages}{A197\bibrangedash A208}
+      \range{pages}{-1}
+    \endentry
+    \entry{ait}{article}{}
+      \name{author}{2}{}{%
+        {{hash=62e6a5d4f7e95bc88f125cdbbc9ea8c4}{%
+           family={Irons},
+           familyi={I\bibinitperiod},
+           given={B.\bibnamedelimi M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=f3610d742c676d7f6871a474807ea85c}{%
+           family={Tuck},
+           familyi={T\bibinitperiod},
+           given={R.\bibnamedelimi C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{3cc1ce4a829871888d4f084790470d24}
+      \strng{fullhash}{3cc1ce4a829871888d4f084790470d24}
+      \strng{authornamehash}{3cc1ce4a829871888d4f084790470d24}
+      \strng{authorfullhash}{3cc1ce4a829871888d4f084790470d24}
+      \field{sortinit}{I}
+      \field{sortinithash}{25e99d37ba90f7c4fb20baf4e310faf3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal for Numerical Methods in Engineering}
+      \field{title}{A Version of the Aitken Accelerator for Computer Iteration}
+      \field{volume}{1}
+      \field{year}{1969}
+      \field{pages}{275\bibrangedash 277}
+      \range{pages}{3}
+    \endentry
+    \entry{joan}{article}{}
+      \name{author}{7}{}{%
+        {{hash=402688e2effe40cf3c2546023e8bd8fc}{%
+           family={J.},
+           familyi={J\bibinitperiod},
+           given={Mas\bibnamedelima Colomer},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=6eabefa7162ccbcaf97a028d77d0e47c}{%
+           family={N.},
+           familyi={N\bibinitperiod},
+           given={Bartoli},
+           giveni={B\bibinitperiod}}}%
+        {{hash=e9ef9dbd169e8104c5a60ed4e875c568}{%
+           family={T.},
+           familyi={T\bibinitperiod},
+           given={Lefebvre},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e069ac009d690c229d379bd66d4c6073}{%
+           family={S.},
+           familyi={S\bibinitperiod},
+           given={Dubreuil},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2097ce7f02e27cf96a0efd4b6eb79448}{%
+           family={A.},
+           familyi={A\bibinitperiod},
+           given={Martins\bibnamedelimb Joaquim\bibnamedelimb R.\bibnamedelimi R.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=c329edbc774e8ec9f83287c4a713a59a}{%
+           family={E.},
+           familyi={E\bibinitperiod},
+           given={Bénard},
+           giveni={B\bibinitperiod}}}%
+        {{hash=30e43458c1733ee63de9af58e0918f5c}{%
+           family={J.},
+           familyi={J\bibinitperiod},
+           given={Morlier},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{e192437d45ed1910384944a9c467b875}
+      \strng{fullhash}{8f7bc4172a2f8eba743b84138f433db9}
+      \strng{authornamehash}{e192437d45ed1910384944a9c467b875}
+      \strng{authorfullhash}{8f7bc4172a2f8eba743b84138f433db9}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Similarity Maximization of a Scaled Aeroelastic Flight Demonstrator via Multidisciplinary Optimization}}
+      \field{year}{2017}
+      \field{dateera}{ce}
+    \endentry
+    \entry{jac}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9e36b74541d3b01c376f3466a5e9c095}{%
+           family={Jakobsson},
+           familyi={J\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=65e2cbab4d6c0fe0273763b5c9a6e4d1}{%
+           family={Amoignon},
+           familyi={A\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{afc30db34fafbedf78c403f4a760ee5f}
+      \strng{fullhash}{afc30db34fafbedf78c403f4a760ee5f}
+      \strng{authornamehash}{afc30db34fafbedf78c403f4a760ee5f}
+      \strng{authorfullhash}{afc30db34fafbedf78c403f4a760ee5f}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers \& Fluids}
+      \field{number}{6}
+      \field{title}{Mesh deformation using radial basis functions for gradient-based aerodynamic shape optimization}
+      \field{volume}{36}
+      \field{year}{2007}
+      \field{pages}{1119\bibrangedash 1136}
+      \range{pages}{18}
+    \endentry
+    \entry{krei}{book}{}
+      \name{author}{2}{}{%
+        {{hash=465510a87a30abcb7680ab81da3dd234}{%
+           family={Kreisselmeier},
+           familyi={K\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ad58a41151c29624b6f274f4d47b4ec2}{%
+           family={Steinhauser},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=ebd80d4b0ab4fcf5fe9b6bdd21c4be2e}{%
+           family={CUENOD},
+           familyi={C\bibinitperiod},
+           given={M.A.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pergamon}%
+      }
+      \strng{namehash}{0a64aa5103a8a8d07189fa5071b96278}
+      \strng{fullhash}{0a64aa5103a8a8d07189fa5071b96278}
+      \strng{authornamehash}{0a64aa5103a8a8d07189fa5071b96278}
+      \strng{authorfullhash}{0a64aa5103a8a8d07189fa5071b96278}
+      \strng{editornamehash}{ebd80d4b0ab4fcf5fe9b6bdd21c4be2e}
+      \strng{editorfullhash}{ebd80d4b0ab4fcf5fe9b6bdd21c4be2e}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Computer Aided Design of Control Systems}
+      \field{title}{SYSTEMATIC CONTROL DESIGN BY OPTIMIZING A VECTOR PERFORMANCE INDEX}
+      \field{year}{1980}
+      \field{pages}{113\bibrangedash 117}
+      \range{pages}{5}
+    \endentry
+    \entry{lambe}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e1569a01af7e351e46f9e5e0fe662621}{%
+           family={Lambe},
+           familyi={L\bibinitperiod},
+           given={Andrew\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=a42ae6dc4496303e30cc1d05c0dea3e7}{%
+           family={Kennedy},
+           familyi={K\bibinitperiod},
+           given={Graeme\bibnamedelima J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a336f48a9a3d6586df54bb5aac6dd81e}{%
+           family={Martins},
+           familyi={M\bibinitperiod},
+           given={Joaquim\bibnamedelimb R.\bibnamedelimi R.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{299c8a21e047569b670428e918298ed9}
+      \strng{fullhash}{299c8a21e047569b670428e918298ed9}
+      \strng{authornamehash}{299c8a21e047569b670428e918298ed9}
+      \strng{authorfullhash}{299c8a21e047569b670428e918298ed9}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Structural and Multidisciplinary Optimization}
+      \field{number}{1}
+      \field{title}{An evaluation of constraint aggregation strategies for wing box mass minimization}
+      \field{volume}{55}
+      \field{year}{2017}
+      \field{pages}{257\bibrangedash 277}
+      \range{pages}{21}
+    \endentry
+    \entry{lomb}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b103c4fcddaa05c7935c7ff2d5e53f3f}{%
+           family={Lombardi},
+           familyi={L\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a60b7b4794401e1e18b0696045678ed2}{%
+           family={Parolini},
+           familyi={P\bibinitperiod},
+           given={Nicola},
+           giveni={N\bibinitperiod}}}%
+        {{hash=c28a2501b2d78ab05e717a1f7a22209f}{%
+           family={Quarteroni},
+           familyi={Q\bibinitperiod},
+           given={Alfio},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f9de20c0645347579e7c2e2cd0710cf3}
+      \strng{fullhash}{f9de20c0645347579e7c2e2cd0710cf3}
+      \strng{authornamehash}{f9de20c0645347579e7c2e2cd0710cf3}
+      \strng{authorfullhash}{f9de20c0645347579e7c2e2cd0710cf3}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computer Methods in Applied Mechanics and Engineering}
+      \field{title}{Radial basis functions for inter-grid interpolation and mesh motion in FSI problems}
+      \field{volume}{256}
+      \field{year}{2013}
+      \field{pages}{117\bibrangedash 131}
+      \range{pages}{15}
+    \endentry
+    \entry{poon2}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=a336f48a9a3d6586df54bb5aac6dd81e}{%
+           family={Martins},
+           familyi={M\bibinitperiod},
+           given={Joaquim\bibnamedelimb R.\bibnamedelimi R.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=f3d198b0753a6203230114def0821494}{%
+           family={Poon},
+           familyi={P\bibinitperiod},
+           given={Nicholas\bibnamedelimb M.\bibnamedelimi K.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{1f71d2753ad2e35dfd1d12a214779406}
+      \strng{fullhash}{1f71d2753ad2e35dfd1d12a214779406}
+      \strng{authornamehash}{1f71d2753ad2e35dfd1d12a214779406}
+      \strng{authorfullhash}{1f71d2753ad2e35dfd1d12a214779406}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{On Structural Optimization Using Constraint Aggregation}
+      \field{year}{2005}
+    \endentry
+    \entry{stu}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a336f48a9a3d6586df54bb5aac6dd81e}{%
+           family={Martins},
+           familyi={M\bibinitperiod},
+           given={Joaquim\bibnamedelimb R.\bibnamedelimi R.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=30ffd77c1e5e486bc8d41341ccee6309}{%
+           family={Sturdza},
+           familyi={S\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=0dc037ea3b123fa86ed06796f3c98dd6}{%
+           family={Alonso},
+           familyi={A\bibinitperiod},
+           given={Juan\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{9f6c87df701665f917092c8cd06b7ae0}
+      \strng{fullhash}{9f6c87df701665f917092c8cd06b7ae0}
+      \strng{authornamehash}{9f6c87df701665f917092c8cd06b7ae0}
+      \strng{authorfullhash}{9f6c87df701665f917092c8cd06b7ae0}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM Trans. Math. Softw.}
+      \field{number}{3}
+      \field{title}{The Complex-step Derivative Approximation}
+      \field{volume}{29}
+      \field{year}{2003}
+      \field{pages}{245\bibrangedash 262}
+      \range{pages}{18}
+    \endentry
+    \entry{bera}{article}{}
+      \name{author}{5}{}{%
+        {{hash=5e8c16bebd4e6da14ec2935173d4891f}{%
+           family={P.},
+           familyi={P\bibinitperiod},
+           given={Beran},
+           giveni={B\bibinitperiod}}}%
+        {{hash=9e65df2410dfc507b3826472af930798}{%
+           family={N.},
+           familyi={N\bibinitperiod},
+           given={Khot},
+           giveni={K\bibinitperiod}}}%
+        {{hash=72b4621c042cb7945f0a81c7828bcd5c}{%
+           family={F.},
+           familyi={F\bibinitperiod},
+           given={Eastep},
+           giveni={E\bibinitperiod}}}%
+        {{hash=fa9df7b8ef20ed9c20775f0dd012c9eb}{%
+           family={R.},
+           familyi={R\bibinitperiod},
+           given={Snyder},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f79efa6769035c42e7a2d46da85615c6}{%
+           family={J.},
+           familyi={J\bibinitperiod},
+           given={Zweber},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{ec0f2d792262cdec24f727790b8f11dd}
+      \strng{fullhash}{6f407ace12fc96c37bc940a66aae2699}
+      \strng{authornamehash}{ec0f2d792262cdec24f727790b8f11dd}
+      \strng{authorfullhash}{6f407ace12fc96c37bc940a66aae2699}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Aircraft}
+      \field{title}{Numerical analysis of store-induced limit-cycle oscillation}
+      \field{volume}{41}
+      \field{year}{2004}
+      \field{pages}{1315\bibrangedash 1326}
+      \range{pages}{12}
+    \endentry
+    \entry{bomb}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f1c6fa9e30c82a8668701139083ce710}{%
+           family={Piperni},
+           familyi={P\bibinitperiod},
+           given={Pat},
+           giveni={P\bibinitperiod}}}%
+        {{hash=8ca15a8aa0e302845a4f5f9a3a951214}{%
+           family={Abdo},
+           familyi={A\bibinitperiod},
+           given={Mohammed},
+           giveni={M\bibinitperiod}}}%
+        {{hash=eb14ab41514ac9f5e3900ce7bf820e8d}{%
+           family={Fafyeke},
+           familyi={F\bibinitperiod},
+           given={Fassi},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {American Institute of Aeronautics}%
+        {Astronautics}%
+      }
+      \strng{namehash}{d8e71406ce27ec4aaf089d9880fdbaa9}
+      \strng{fullhash}{d8e71406ce27ec4aaf089d9880fdbaa9}
+      \strng{authornamehash}{d8e71406ce27ec4aaf089d9880fdbaa9}
+      \strng{authorfullhash}{d8e71406ce27ec4aaf089d9880fdbaa9}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{10th AIAA/ISSMO Multidisciplinary Analysis and Optimization Conference}
+      \field{title}{The Application of Multi-Disciplinary Optimization Technologies to the Design of a Business Jet}
+      \field{year}{2004}
+    \endentry
+    \entry{poon}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f3d198b0753a6203230114def0821494}{%
+           family={Poon},
+           familyi={P\bibinitperiod},
+           given={Nicholas\bibnamedelimb M.\bibnamedelimi K.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=a336f48a9a3d6586df54bb5aac6dd81e}{%
+           family={Martins},
+           familyi={M\bibinitperiod},
+           given={Joaquim\bibnamedelimb R.\bibnamedelimi R.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{5273515f1f066e6184791c1340c820bf}
+      \strng{fullhash}{5273515f1f066e6184791c1340c820bf}
+      \strng{authornamehash}{5273515f1f066e6184791c1340c820bf}
+      \strng{authorfullhash}{5273515f1f066e6184791c1340c820bf}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Structural and Multidisciplinary Optimization}
+      \field{number}{1}
+      \field{title}{An adaptive approach to constraint aggregation using adjoint sensitivity analysis}
+      \field{volume}{34}
+      \field{year}{2007}
+      \field{pages}{61\bibrangedash 73}
+      \range{pages}{13}
+    \endentry
+    \entry{all}{article}{}
+      \name{author}{2}{}{%
+        {{hash=424cb945b895a085b19e54ecbf7c4904}{%
+           family={Rendall},
+           familyi={R\bibinitperiod},
+           given={T.C.S},
+           giveni={T\bibinitperiod}}}%
+        {{hash=e4431308078f66917269dce4ef9b15fa}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={C.B},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{801a677346b9d88c54fd1083546f774d}
+      \strng{fullhash}{801a677346b9d88c54fd1083546f774d}
+      \strng{authornamehash}{801a677346b9d88c54fd1083546f774d}
+      \strng{authorfullhash}{801a677346b9d88c54fd1083546f774d}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal for Numerical Methods in Engineering}
+      \field{number}{10}
+      \field{title}{Unified fluid-structure interpolation and mesh motion using radial basis functions}
+      \field{volume}{74}
+      \field{year}{2008}
+      \field{pages}{1519\bibrangedash 1559}
+      \range{pages}{41}
+    \endentry
+    \entry{bru}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2d7c6d303a125ecc37f65f4cb32c3a64}{%
+           family={Serralta.},
+           familyi={S\bibinitperiod},
+           given={J.C.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d422643dd507e960c05f6a7734df5545}{%
+           family={Glenis},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ISAE}%
+      }
+      \strng{namehash}{882993eab21cc5cf197c69297a1491b8}
+      \strng{fullhash}{882993eab21cc5cf197c69297a1491b8}
+      \strng{authornamehash}{882993eab21cc5cf197c69297a1491b8}
+      \strng{authorfullhash}{882993eab21cc5cf197c69297a1491b8}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{BLENDED WING BODY MODEL REDUCTION FOR AEROELASTICITY}
+      \field{year}{2017}
+    \endentry
+    \entry{msc}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d93d64c12fff2dfef8ebd32dda639049}{%
+           family={Software},
+           familyi={S\bibinitperiod},
+           given={MSC},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MacNeal-Schwendler Corporation}%
+      }
+      \strng{namehash}{d93d64c12fff2dfef8ebd32dda639049}
+      \strng{fullhash}{d93d64c12fff2dfef8ebd32dda639049}
+      \strng{authornamehash}{d93d64c12fff2dfef8ebd32dda639049}
+      \strng{authorfullhash}{d93d64c12fff2dfef8ebd32dda639049}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{MSC Nastran 2012 Quick Reference Guide}
+      \field{year}{2011}
+    \endentry
+    \entry{ver}{article}{}
+      \name{author}{3}{}{%
+        {{hash=8e862bb73f0719127baabf8cd7eea5c3}{%
+           family={Verbart},
+           familyi={V\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=252f12ad906deceed3132e4839bf0aba}{%
+           family={Langelaar},
+           familyi={L\bibinitperiod},
+           given={Matthijs},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ca9bf1e242c5e968625b1b4c4e995e92}{%
+           family={Keulen},
+           familyi={K\bibinitperiod},
+           given={Fred\bibnamedelima van},
+           giveni={F\bibinitperiod\bibinitdelim v\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f3e7e0d8638583b3ec55e4bae1a04be}
+      \strng{fullhash}{5f3e7e0d8638583b3ec55e4bae1a04be}
+      \strng{authornamehash}{5f3e7e0d8638583b3ec55e4bae1a04be}
+      \strng{authorfullhash}{5f3e7e0d8638583b3ec55e4bae1a04be}
+      \field{sortinit}{V}
+      \field{sortinithash}{d18f5ce25ce0b5ca7f924e3f6c04870e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Structural and Multidisciplinary Optimization}
+      \field{number}{2}
+      \field{title}{A unified aggregation and relaxation approach for stress-constrained topology optimization}
+      \field{volume}{55}
+      \field{year}{2017}
+      \field{pages}{663\bibrangedash 679}
+      \range{pages}{17}
+    \endentry
+    \entry{nasa}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0fa8adfc66dadcea76d352abf07d36e1}{%
+           family={Wrenn.},
+           familyi={W\bibinitperiod},
+           given={G.\bibnamedelimi A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {NASA}%
+      }
+      \strng{namehash}{0fa8adfc66dadcea76d352abf07d36e1}
+      \strng{fullhash}{0fa8adfc66dadcea76d352abf07d36e1}
+      \strng{authornamehash}{0fa8adfc66dadcea76d352abf07d36e1}
+      \strng{authorfullhash}{0fa8adfc66dadcea76d352abf07d36e1}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Technical Report CR-4220}
+      \field{title}{An indirect method for numerical optimization using the Kreisselmeier– Steinhauser function}
+      \field{year}{1989}
+    \endentry
+    \entry{ter}{book}{}
+      \name{author}{1}{}{%
+        {{hash=51110947391e14f4df5f8f7a89ea28d1}{%
+           family={Z.},
+           familyi={Z\bibinitperiod},
+           given={Qu},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag London}%
+      }
+      \strng{namehash}{51110947391e14f4df5f8f7a89ea28d1}
+      \strng{fullhash}{51110947391e14f4df5f8f7a89ea28d1}
+      \strng{authornamehash}{51110947391e14f4df5f8f7a89ea28d1}
+      \strng{authorfullhash}{51110947391e14f4df5f8f7a89ea28d1}
+      \field{sortinit}{Z}
+      \field{sortinithash}{fdda4caaa6b5fa63e0c081dcb159543a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Model Order Reduction Techniques with Applications in Finite Element Analysis}
+      \field{year}{2004}
+    \endentry
+    \entry{zha}{article}{}
+      \name{author}{4}{}{%
+        {{hash=b9d1bf88dec0b3a58afb4e64d7777df1}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Ke-Shi},
+           giveni={K\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=e8d8bdf578de20988f9799bbd478f173}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Zhong-Hua},
+           giveni={Z\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=3cb82f802a49cd551d74b768fd288fec}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Zhong-Jian},
+           giveni={Z\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=9ada4bcdae17a026fd90c53ac3c8b89b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yuan},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{81b77f27c684caa7a85dcde3f998e73a}
+      \strng{fullhash}{8c0dfd5d978d144a6536daaacca7d833}
+      \strng{authornamehash}{81b77f27c684caa7a85dcde3f998e73a}
+      \strng{authorfullhash}{8c0dfd5d978d144a6536daaacca7d833}
+      \field{sortinit}{Z}
+      \field{sortinithash}{fdda4caaa6b5fa63e0c081dcb159543a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Structural and Multidisciplinary Optimization}
+      \field{title}{Constraint aggregation for large number of constraints in wing surrogate-based optimization}
+      \field{year}{2018}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

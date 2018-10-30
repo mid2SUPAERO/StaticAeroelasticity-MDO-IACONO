@@ -1,0 +1,175 @@
+\documentclass[12pt,english,cucitura,oneside]{toptesi}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+%\usepackage{hyperref}
+\usepackage[colorlinks,urlcolor=Red,linktocpage,citecolor=MidnightBlue, linkcolor=MidnightBlue]{hyperref}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{amssymb}% http://ctan.org/pkg/amssymb
+\usepackage{pifont}% http://ctan.org/pkg/pifont
+\newcommand{\cmark}{\ding{51}}%
+
+\usepackage{caption}
+\captionsetup{tableposition=top,figureposition=bottom,font=small,width=.85\textwidth} %
+\usepackage{amsmath}
+\usepackage{subfigure} 
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{xspace}
+ \usepackage[titletoc]{appendix}
+\usepackage{multirow}
+\usepackage{listings}
+\lstloadlanguages{Python}
+\usepackage{color}
+\newcommand{\xmark}{\text{\ding{55}}}
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\lstset{ 
+	backgroundcolor=\color{white},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}; should come as last argument
+	basicstyle=\footnotesize,        % the size of the fonts that are used for the code
+	breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+	breaklines=true,                 % sets automatic line breaking
+	captionpos=b,                    % sets the caption-position to bottom
+	commentstyle=\color{mygreen},    % comment style
+	deletekeywords={...},            % if you want to delete keywords from the given language
+	escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+	extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+	frame=single,	                   % adds a frame around the code
+	keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+	keywordstyle=\color{blue},       % keyword style
+	language=Octave,                 % the language of the code
+	morekeywords={*,...},            % if you want to add more keywords to the set
+	numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+	numbersep=5pt,                   % how far the line-numbers are from the code
+	numberstyle=\tiny\color{mygray}, % the style that is used for the line-numbers
+	rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+	showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+	showstringspaces=false,          % underline spaces within strings only
+	showtabs=false,                  % show tabs within strings adding particular underscores
+	stepnumber=2,                    % the step between two line-numbers. If it's 1, each line will be numbered
+	stringstyle=\color{mymauve},     % string literal style
+	tabsize=2,	                   % sets default tabsize to 2 spaces
+	title=\lstname                   % show the filename of files included with \lstinputlisting; also try caption instead of title
+}
+\usepackage{afterpage}
+{\setlength{\parindent}{0cm}
+\usepackage[autostyle,italian=guillemets]{csquotes}
+\usepackage{paracol}
+\usepackage[bibstyle=numeric,citestyle=numeric,backend=biber]{biblatex}
+\addbibresource{biblio.bib}
+\renewcommand\arraystretch{1.25}
+\linespread{1.5}
+\hypersetup{%
+    pdfpagemode={UseOutlines},
+    bookmarksopen,
+    pdfstartview={FitH},
+    colorlinks,
+    linkcolor={blue},
+    citecolor={red},
+    urlcolor={blue}
+  }
+\input{commands.tex}
+
+\begin{document}
+\english
+\thispagestyle{empty}
+\begin{center}
+\Large{\textbf{POLITECNICO DI TORINO} \\}
+\vspace{0.3cm}
+\large{Corso di laurea in Ingegneria Aerospaziale\\}
+\vspace{0.5cm}
+\Large{Tesi di Laurea Magistrale\\}
+\vspace{0.3cm}
+\textbf{\LARGE{Development of a Code for Aeroelastic Optimization of Wings with Stress Constraints Aggregation\\}}
+\end{center}
+\vspace{0.1cm}
+\begin{figure}
+\centering
+\includegraphics[width=2in]{./Immagini/polito.png}
+\end{figure}
+\vspace{0.1cm}
+\begin{flushleft}
+\large{
+\textbf{Relatori}\\
+Prof. Enrico Cestino\\
+Prof. Giacomo Frulla
+\vspace{0.1cm}}
+\end{flushleft}
+\begin{flushright}
+\vspace{0.1cm}
+\large{\textbf{Candidato}\\
+Almerico Iacono}
+\end{flushright}
+\vspace{0.1cm}
+\begin{center}
+\large{
+\textbf{Supervisore esterno\\
+ISAE SUPAREO}\\
+Prof. Joseph Morlier\\}
+\vspace{0.1cm}
+\large{Ottobre 2018}
+\end{center}
+
+\newpage
+\null\vspace{\stretch{1}}
+\begin{flushright}
+Dedica\\
+\textit{A mia mamma \\
+per il suo costante supporto.}
+\end{flushright}
+\null\vspace{\stretch{2}}
+\newpage
+
+\begin{abstract}
+The development of an open-source code for the multidisciplinary design optimization related to the aero-structural optimization of wings is presented. This work is the result of a series of studies done thanks to the cooperation of ISAE and ONERA. The aim of this work is to develop an optimization process able to maximize the performance of a wing modifying its geometry out of respect of the constraints imposed, considering the aeroelastic coupling between aerodynamics loads and structural displacements. In order to manage a huge number of constraints, a constraint aggregation method is presented, based on the Kreisselmeier-Steinhauser function. It’s also presented a reduced model in relation to the aeroelastic coupling in order to reduce the computational cost. The code is entirely written in Python, while external softwares are used in order to perform aerodynamic or structural analysis.  Practical examples on common wings, like the Goland wing or NASA Common Research Wing CRM is presented.
+\end{abstract}
+
+\tableofcontents
+\listoffigures
+
+\mainmatter
+\chapter*{Acknowledgements} 
+\label{ring}
+\input{ring.tex}
+
+\chapter{Introduction to Aerostructural Optimization } 
+\label{chapter1}
+\input{chapter1.tex}
+
+\chapter{Source Code Description} 
+\label{chapter2}
+\input{chapter2.tex}
+%
+\chapter{Constraint Aggregation} 
+\label{chapter3}
+\input{chapter3.tex}
+%
+\chapter{Reduced Model for MDA Loop} 
+\label{chapter4}
+\input{chapter4.tex}
+%
+\chapter{Test Cases} 
+\label{chapter5}
+\input{chapter5.tex}
+
+\chapter{Results} 
+\label{chapter6}
+\input{chapter6.tex}
+\setcounter{secnumdepth}{2}
+
+
+\begin{appendices}
+	\addappheadtotoc
+	\chapter{Python Codes}
+	\label{label1}
+	\input{appendix1.tex}
+\end{appendices}
+
+\addcontentsline{toc}{chapter}{\bibname}
+\printbibliography
+
+\end{document}

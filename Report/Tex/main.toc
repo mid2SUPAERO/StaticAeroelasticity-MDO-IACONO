@@ -1,0 +1,84 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {italian}
+\defcounter {refsection}{0}\relax 
+\select@language {italian}
+\defcounter {refsection}{0}\relax 
+\select@language {italian}
+\select@language {english}
+\contentsline {chapter}{List of Figures}{iv}{chapter*.3}
+\contentsline {chapter}{\numberline {1}Introduction to Aerostructural Optimization }{2}{chapter.1}
+\contentsline {section}{\numberline {1.1}Multidisciplinary Design Optimization MDO}{2}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Optimization Methods}{3}{subsection.1.1.1}
+\contentsline {subsubsection}{Gradient Free Methods}{4}{section*.6}
+\contentsline {subsubsection}{Gradient Based Methods}{5}{section*.7}
+\contentsline {subsection}{\numberline {1.1.2}Sensitivity Analysis}{6}{subsection.1.1.2}
+\contentsline {subsubsection}{Finite Differences}{6}{section*.8}
+\contentsline {subsubsection}{Complex-Step Derivate Approximation}{7}{section*.9}
+\contentsline {subsubsection}{Analytic Methods}{7}{section*.10}
+\contentsline {section}{\numberline {1.2}Aeroelasticity}{8}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Static aeroelasticity}{8}{subsection.1.2.1}
+\contentsline {subsubsection}{Typical Aeroelastic Section}{9}{section*.12}
+\contentsline {chapter}{\numberline {2}Source Code Description}{11}{chapter.2}
+\contentsline {section}{\numberline {2.1}Structure of the Code}{12}{section.2.1}
+\contentsline {section}{\numberline {2.2}Component}{14}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Geometry }{14}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Raidial Basis Functions}{15}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Aerodynamics}{16}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Structure}{17}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Load and Displacements Transfer}{19}{subsection.2.2.5}
+\contentsline {section}{\numberline {2.3}Driver}{20}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Global Optimizer}{20}{subsection.2.3.1}
+\contentsline {subsubsection}{Optimizer}{21}{section*.18}
+\contentsline {subsubsection}{Design Variables}{21}{section*.19}
+\contentsline {subsubsection}{Constraint}{22}{section*.21}
+\contentsline {subsubsection}{Objective Function}{23}{section*.22}
+\contentsline {subsection}{\numberline {2.3.2}MDA Driver}{24}{subsection.2.3.2}
+\contentsline {chapter}{\numberline {3}Constraint Aggregation}{27}{chapter.3}
+\contentsline {section}{\numberline {3.1}Aggregation}{27}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Aggregation Method}{29}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Aggregation Functions}{30}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Function}{31}{subsection.3.2.1}
+\contentsline {subsubsection}{P-norm}{31}{section*.26}
+\contentsline {subsubsection}{P-mean}{31}{section*.27}
+\contentsline {subsubsection}{Kreisselmeier-Steinhsauser function}{32}{section*.28}
+\contentsline {subsection}{\numberline {3.2.2}Effects of the Aggregation Parameter $P$}{34}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Aggregation Component}{36}{section.3.3}
+\contentsline {chapter}{\numberline {4}Reduced Model for MDA Loop}{38}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction to the Reduced Model}{38}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Approach for the Reduced Model}{39}{subsection.4.1.1}
+\contentsline {section}{\numberline {4.2}Structure of the Code}{40}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Creation of the FEM model}{41}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Extraction of Stiffness and Inertia Properties}{42}{subsection.4.2.2}
+\contentsline {subsubsection}{Stiffness Properties}{42}{section*.38}
+\contentsline {subsubsection}{Inertia Properties}{44}{section*.40}
+\contentsline {section}{\numberline {4.3}Validation of the Stick Model}{46}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Comparison of the Static Response}{46}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Comparison of the Modal Properties}{47}{subsection.4.3.2}
+\contentsline {subsubsection}{Modal Assurance Criterion MAC}{48}{section*.44}
+\contentsline {subsubsection}{Frequencies Comparison}{49}{section*.46}
+\contentsline {section}{\numberline {4.4}Modification and Results}{51}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}New Mass Distribution}{51}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Automatization of the Mode Pairing }{54}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}Results}{55}{section.4.5}
+\contentsline {chapter}{\numberline {5}Test Cases}{56}{chapter.5}
+\contentsline {section}{\numberline {5.1}Goland Wing}{56}{section.5.1}
+\contentsline {section}{\numberline {5.2}CRM wing}{58}{section.5.2}
+\contentsline {section}{\numberline {5.3}CRM Wing Simple Model}{61}{section.5.3}
+\contentsline {section}{\numberline {5.4}Different Options for the Optimization}{62}{section.5.4}
+\contentsline {section}{\numberline {5.5}Problems}{63}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Cobyla Design Variables Limits}{63}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Finite Difference Gradient Evaluation Error }{66}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Nastran Output File Reader}{67}{subsection.5.5.3}
+\contentsline {chapter}{\numberline {6}Results}{68}{chapter.6}
+\contentsline {section}{\numberline {6.1}Reader code}{68}{section.6.1}
+\contentsline {section}{\numberline {6.2}Test Cases Results}{69}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Case 1}{70}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Case 2}{72}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Case 3 and 4}{74}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Case 5}{78}{subsection.6.2.4}
+\contentsline {chapter}{Appendix Appendices}{79}{section*.87}
+\contentsline {chapter}{Appendix \numberline {A}Python Codes}{80}{Appendix.1.A}
+\contentsline {section}{\numberline {A.1}CRM Wing Optimization Test Case 1}{80}{section.1.A.1}
+\contentsline {section}{\numberline {A.2}Python Script to Access Results}{89}{section.1.A.2}
+\contentsline {chapter}{Bibliography}{93}{lstnumber.-2.136}
